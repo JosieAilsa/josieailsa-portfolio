@@ -1,1 +1,1 @@
-## My portoflio :happy:
+# :rosette: :cherry_blossom: JN Portfolio :rosette: :cherry_blossom: 
