@@ -1,5 +1,5 @@
  import "./Landing.scss"
- import logo from "../../assets/images/jnlogo-landing2-01.svg"
+ import logo from "../../assets/images/icons/jnlogo-landing2-01.svg"
  import pinkFlower from"../../assets/images/flowers/flowers-01.svg"
  import orangeFlower from "../../assets/images/flowers/flowers-02.svg"
  import whiteFlower from"../../assets/images/flowers/flowers-03.svg"
@@ -9,9 +9,12 @@
  import orangePetals from"../../assets/images/flowers/flowers-07.svg"
 
 
-const Landing = () => {
+const Landing = ({handleLandingHover}) => {
+
+
+
     return (
-    <main class="landing" >
+    <body class="landing" >
         <div className="landing__artwork">
             <img className ="landing__art"src={pinkFlower} alt=""/>
             <img className ="landing__art"src={orangeFlower} alt=""/>
@@ -24,8 +27,8 @@ const Landing = () => {
     <section className="landing-hero">
         <img src={logo} alt="jnlogo" srcset="" className="landing-hero__logo"/>
     </section>
-        <p className="landing__cta">See portfolio</p>
-    </main>
+        <p onMouseOver={handleLandingHover} className="landing__cta">See portfolio</p>
+    </body>
     );
 }
  

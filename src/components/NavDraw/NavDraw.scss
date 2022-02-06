@@ -1,0 +1,21 @@
+@use "../../assets/sass/abstracts/variables" as * ;
+@use "../../assets/sass/base/resets" as * ;
+
+.nav__draw{
+    background-color: $color-background;
+    color: $color-green;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width:33vw;
+    z-index: 1;
+    left:70vw;
+    padding: 2rem;
+    position: absolute;
+    border-bottom-left-radius:1rem;
+
+    .nav__draw-link{
+        padding: 1rem;
+        size: 2rem;
+    }
+}

@@ -1,15 +1,32 @@
+import { useState } from "react"
+import hamburger from "../../assets/images/icons/hamburger.svg"
+import logo from "../../assets/images/icons/jnlogo-02.svg"
+import NavDraw from "../NavDraw/NavDraw"
+import "./Nav.scss"
+
+
 const Nav = () => {
+    const [drawIsOpen, setDrawIsOpen] = useState(false);
+
+    const handleClick = () => {
+        drawIsOpen ? setDrawIsOpen(false): setDrawIsOpen(true);
+    }
+
     return (
-    <nav className="nav">
-         <img lassName="nav__image" src="./imgs/jnlogo-02.svg" alt="logo" class="navbar-brand logo" />
-         <ul className="nav__links">
-            <li className="nav__link">Home</li>
-            <li className="nav__link">Projects</li>
-            <li className="nav__link">Skills</li>
-            <li className="nav__link">Contact</li>
-         </ul>
-        img
-    </nav>);
+    <>
+    <header>
+        <nav className="navbar">
+            <img src={logo} className="navbar__logo" alt="logo" />
+            <ul className="navbar__links">
+                <li className="navbar__link">projects</li>
+                <li className="navbar__link">skills</li>
+                <li className="navbar__link">contact</li>
+            </ul>
+            <img onClick = {handleClick} src={hamburger} className="navbar__hamburger" alt="nav-menu"/>
+        </nav>
+       {drawIsOpen && <NavDraw/>}
+    </header>
+    </>);
 }
  
 export default Nav;
