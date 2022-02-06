@@ -1,0 +1,38 @@
+@use '../../assets/sass/abstracts/mixin' as *;
+@use '../../assets/sass/abstracts/variables' as *;
+
+.landing {
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(110deg, #a9bfde 45%, #faf4ed);
+    @include flex-center-column;
+    
+.landing__artwork{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .landing__art {
+        z-index: 1;
+        height: 10vmin;
+        width:10vmin;
+    }
+}
+
+.landing-hero{
+    @include flex-center-row;
+    flex-grow: 1;
+
+    .landing-hero__logo{
+        width: 30vmin;
+        height: 30vmin;
+    }
+}
+
+.landing__cta {
+    padding: 1rem;
+    font-family: $font-accent;
+    color: $color-green;
+    font-size: 1.5rem;
+}
+}
+
