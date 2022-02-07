@@ -1,0 +1,6 @@
+@use "../abstracts/variables" as *; 
+.page{
+    background-color: $color-background;
+    width:100vw;
+    height: 100vh;
+}

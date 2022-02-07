@@ -1,0 +1,65 @@
+@use "../../assets/sass/abstracts/variables" as *; 
+@use "../../assets/sass/layout/layout" as *; 
+@use "../../assets/sass/abstracts/mixin" as *;
+@use"../../assets/sass/base/resets" as *;
+
+.main{
+    @include flex-center-column;
+
+    .hero{
+        @include flex-center-column;
+        width: 100%;
+        @media only screen and (min-width: $desktop-breakpoint) {
+        display: flex;
+        flex-direction: row-reverse;
+        }
+    
+    .hero__image{
+        width: 85%;
+        padding: 2rem;
+        @media only screen and (min-width: $tablet-breakpoint) {
+            max-width: 65%;
+            }
+        @media only screen and (min-width: $desktop-breakpoint) {
+            max-width: 35%;
+            }
+         
+    }
+    
+    
+    .hero__text{
+        color: $color-green;
+        @include flex-center-column;
+        width: 50%;
+        gap:1rem;
+        @media only screen and (min-width: $desktop-breakpoint) {
+            width: 50%;
+            align-items: start;
+            padding: 2rem;
+        }
+        .hero__header{
+            font-family: $font-accent;
+            font-size: 2.15rem;
+            font-weight: 400;
+            font-style: italic;
+            flex-wrap: nowrap;
+            @media only screen and (min-width: $desktop-breakpoint) {
+            font-size: 5rem;
+            text-align: left;
+            }
+        }
+        .hero__intro{
+            font-family: $font-body;
+            font-size: 1.25rem;
+            font-weight: 500;
+
+            @media only screen and (min-width: $desktop-breakpoint) {
+                font-size: 2rem;
+                text-align: left;
+                }
+        }
+    }
+    
+    }
+  
+}

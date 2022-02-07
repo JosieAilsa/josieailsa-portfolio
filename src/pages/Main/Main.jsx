@@ -7,7 +7,6 @@ const Main = () => {
     return (
     <body>
         <Home/>
-        <h1>hello</h1>
     </body>
     );
 }

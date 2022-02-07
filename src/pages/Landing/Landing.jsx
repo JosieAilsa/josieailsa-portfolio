@@ -14,7 +14,7 @@ const Landing = ({handleLandingHover}) => {
 
 
     return (
-    <body class="landing" >
+    <main class="landing" >
         <div className="landing__artwork">
             <img className ="landing__art"src={pinkFlower} alt=""/>
             <img className ="landing__art"src={orangeFlower} alt=""/>
@@ -28,7 +28,7 @@ const Landing = ({handleLandingHover}) => {
         <img src={logo} alt="jnlogo" srcset="" className="landing-hero__logo"/>
     </section>
         <p onMouseOver={handleLandingHover} className="landing__cta">See portfolio</p>
-    </body>
+    </main>
     );
 }
  

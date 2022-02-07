@@ -1,16 +1,20 @@
 import Layout from "../../components/Layout/Layout";
 import heroImg from "../../assets/images/landing-img.svg"
-
+import "./Home.scss"
 const Home = () => {
     return (
        <Layout>
-           <main className="main">
-               <section className="main__hero">
-                   <h1>Hi, I'm Josie.</h1>
-                   <h3>I'm a junior developer and software coach, based in Bristol.</h3>
-                   <img src={heroImg} alt="hero image"/>
+           <div className="main page">
+               <section className="hero">
+                    <section className="hero__text">
+                        <h1 className="hero__header">Hi, I'm 
+                            <strong className="hero__name"> Josie</strong>.
+                        </h1>
+                        <h3 className="hero__intro">I'm Bristol-based UI developer and software coach.</h3>
+                    </section>
+                    <img className="hero__image"src={heroImg} alt="hero image"/>
                </section>
-           </main>
+           </div>
        </Layout>
      );
 }

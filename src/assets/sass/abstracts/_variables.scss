@@ -3,6 +3,7 @@
 
 $color-black:#1E1E24;
 $color-green:#3A5751;
+$color-green-opacity:#3a575196;
 $color-pink:#FCDAD8;
 $color-background:#FAF4ed;
 $color-blue:#A9BFDE;
@@ -11,5 +12,8 @@ $color-blue:#A9BFDE;
 $font-body: "Montserrat", sans-serif;
 $font-accent: "Playfair Display", serif;
 
-
-
+$mobile-breakpoint: 320px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+$large-desktop-breakpoint: 1440px;
+$extra-large-desktop-breakpoint: 2560px;
