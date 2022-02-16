@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should render 1`] = `
+<div>
+  <header>
+    <nav
+      class="navbar"
+    >
+      <img
+        alt="logo"
+        class="navbar__logo"
+        src="jnlogo-02.svg"
+      />
+      <ul
+        class="navbar__links"
+      >
+        <li
+          class="navbar__link"
+        >
+          projects
+        </li>
+        <li
+          class="navbar__link"
+        >
+          skills
+        </li>
+        <li
+          class="navbar__link"
+        >
+          contact
+        </li>
+      </ul>
+      <img
+        alt="nav-menu"
+        class="navbar__hamburger"
+        src="hamburger.svg"
+      />
+    </nav>
+  </header>
+</div>
+`;

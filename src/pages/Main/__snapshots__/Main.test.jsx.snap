@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main page should render 1`] = `
+<div>
+  <header>
+    <nav
+      class="navbar"
+    >
+      <img
+        alt="logo"
+        class="navbar__logo"
+        src="jnlogo-02.svg"
+      />
+      <ul
+        class="navbar__links"
+      >
+        <li
+          class="navbar__link"
+        >
+          projects
+        </li>
+        <li
+          class="navbar__link"
+        >
+          skills
+        </li>
+        <li
+          class="navbar__link"
+        >
+          contact
+        </li>
+      </ul>
+      <img
+        alt="nav-menu"
+        class="navbar__hamburger"
+        src="hamburger.svg"
+      />
+    </nav>
+  </header>
+  <div
+    class="home page"
+  >
+    <section
+      class="hero"
+    >
+      <section
+        class="hero__text"
+      >
+        <h1
+          class="hero__header"
+        >
+          Hi, I'm Josie.
+        </h1>
+        <h3
+          class="hero__intro"
+        >
+          I'm Bristol-based UI developer and software coach.
+        </h3>
+        <button
+          class="hero__button hero__button--active"
+          role="button"
+        >
+          See my projects
+        </button>
+      </section>
+      <img
+        alt="hero image"
+        class="hero__image"
+        src="landing-img.svg"
+      />
+    </section>
+  </div>
+  <div
+    class="projects page"
+  >
+    <h1
+      class="projects__heading"
+    >
+      Projects
+    </h1>
+    <section
+      class="carousel"
+    >
+      <div
+        class="carousel__buttons"
+      >
+        <button
+          class="carousel__button"
+          role="button"
+        >
+          <img
+            alt=""
+            src="arrow.svg"
+          />
+        </button>
+        <button
+          class="carousel__button"
+          role="button"
+        >
+          <img
+            alt=""
+            src="arrow.svg"
+          />
+        </button>
+      </div>
+      <div
+        class="carousel__copy"
+      >
+        <h3
+          class="carousel__header"
+        >
+          Project Name
+        </h3>
+        <p
+          class="carousel__text"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia possimus minima maiores eos iusto quam ut exercitationem sit assumenda, corporis cum incidunt aliquam facere placeat, qui aliquid quod esse deleniti.
+        </p>
+      </div>
+    </section>
+  </div>
+</div>
+`;

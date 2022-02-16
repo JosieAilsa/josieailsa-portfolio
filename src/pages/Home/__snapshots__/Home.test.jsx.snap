@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The home page 1`] = `
+<div>
+  <div
+    class="home page"
+  >
+    <section
+      class="hero"
+    >
+      <section
+        class="hero__text"
+      >
+        <h1
+          class="hero__header"
+        >
+          Hi, I'm Josie.
+        </h1>
+        <h3
+          class="hero__intro"
+        >
+          I'm Bristol-based UI developer and software coach.
+        </h3>
+        <button
+          class="hero__button hero__button--active"
+          role="button"
+        >
+          See my projects
+        </button>
+      </section>
+      <img
+        alt="hero image"
+        class="hero__image"
+        src="landing-img.svg"
+      />
+    </section>
+  </div>
+</div>
+`;

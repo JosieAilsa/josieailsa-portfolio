@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Draw page should render 1`] = `
+<div>
+  <ul
+    class="nav__draw"
+  >
+    <li
+      class="nav__draw-link"
+    >
+      projects
+    </li>
+    <li
+      class="nav__draw-link"
+    >
+      skills
+    </li>
+    <li
+      class="nav__draw-link"
+    >
+      contact
+    </li>
+  </ul>
+</div>
+`;

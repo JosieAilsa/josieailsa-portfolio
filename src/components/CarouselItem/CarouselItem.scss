@@ -1,0 +1,39 @@
+@use "../../assets/sass/abstracts/mixin" as *;
+@use "../../assets/sass/abstracts/variables" as *;
+
+
+.carousel{
+.carousel__container{
+.carousel-item{
+    @include flex-center-column;
+.carousel-item__image-wrap{
+    border: 0.25rem solid $color-blue;
+    width: 15rem;
+    height: 14rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+.carousel-item__image{
+    width: 15rem;
+    height: 14rem;
+    object-fit: cover;
+}
+}
+.carousel-item--2  .carousel-item--3, .carousel-item--4{
+    display: none;
+    @media screen and (min-width: $tablet-breakpoint) {
+        display: block;
+    }
+}
+.carousel-item__copy{
+    width: 15rem;
+    .carousel-item__header{
+        width: 100%;
+    }
+    .carousel-item__text {
+        width: 100%; 
+    }
+}
+}
+}
+}

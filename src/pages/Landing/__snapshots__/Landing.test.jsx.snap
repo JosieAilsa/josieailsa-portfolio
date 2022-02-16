@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The landing page 1`] = `
+<div>
+  <main
+    class="landing"
+  >
+    <div
+      class="landing__artwork"
+    >
+      <img
+        alt=""
+        class="landing__art landing__flower-1"
+        src="flowers-01.svg"
+      />
+      <img
+        alt=""
+        class="landing__art landing__flower-2"
+        src="flowers-02.svg"
+      />
+      <img
+        alt=""
+        class="landing__art landing__flower-3"
+        src="flowers-05.svg"
+      />
+      <img
+        alt=""
+        class="landing__art landing__flower-4"
+        src="flowers-01.svg"
+      />
+      <img
+        alt=""
+        class="landing__art landing__flower-5"
+        src="flowers-03.svg"
+      />
+      <img
+        alt=""
+        class="landing__art landing__flower-6"
+        src="flowers-07.svg"
+      />
+      <img
+        alt=""
+        class="landing__art landing__flower-7"
+        src="flowers-06.svg"
+      />
+    </div>
+    <section
+      class="landing-hero"
+    >
+      <img
+        alt="jnlogo"
+        class="landing-hero__logo"
+        src="jnlogo-landing2-01.svg"
+        srcset=""
+      />
+    </section>
+    <p
+      class="landing__cta"
+    >
+      See portfolio
+    </p>
+  </main>
+</div>
+`;

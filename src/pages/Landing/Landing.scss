@@ -17,6 +17,18 @@
         width:10vmin;
     }
 }
+.landing__flower-1{
+    position: relative;
+    top: -5vh;
+    animation-name: 
+        floatDown,
+        rotateFlower
+    ;
+    animation-iteration-count: 1, infinite;
+    animation-delay: 2000ms ;  
+    animation-duration: 10s ;
+    animation-fill-mode: both; 
+}
 
 .landing-hero{
     @include flex-center-row;
@@ -36,3 +48,26 @@
 }
 }
 
+@keyframes rotateFlower {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes floatDown {
+    0%{
+      transform: translateY(5vh);
+    }
+    15% {
+      transform: translateY(10vh);
+    }
+    50% {
+      transform: translateY(55vh);
+    }
+    85% {
+      transform: translateY(110vh);
+    }
+}

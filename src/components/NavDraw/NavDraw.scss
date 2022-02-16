@@ -2,6 +2,7 @@
 @use "../../assets/sass/base/resets" as * ;
 
 .nav__draw{
+    gap:2rem;
     background-color: $color-background;
     color: $color-green;
     list-style-type: none;
@@ -12,11 +13,10 @@
     left:70vw;
     top: 8vh;
     padding: 2rem;
-    position: absolute;
+    position: fixed;
     border-bottom-left-radius:1rem;
 
     .nav__draw-link{
-        padding: 1rem;
         size: 2rem;
     }
 }
