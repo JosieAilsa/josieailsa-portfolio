@@ -17,6 +17,7 @@ export const projects =
         projectTitile: "Morsecode Translator",
         languages: ["HTML", "CSS", "Vanilla JavaScript"],
         description: "Morse code translator, built with JS using and OOP approach.",
+        image: morsecode,
         githublink:"",
         deployLink:"" 
 
@@ -27,6 +28,7 @@ export const projects =
         languages: ["HTML", "CSS", "JavaScript", "React"],
         images: morsecode,
         description: "Together with my _nology cohort, we developed a full stack event project for the Orchester of the Age of Englightenment",
+        image: morsecode,
         githublink:"",
         deployLink:"" 
     },
@@ -43,6 +45,7 @@ export const projects =
         id: 5,
         projectTitile: "5x5 Powerlift API",
         languages: ["Java", "Spring Boot", "GCP", "SQL"],
+        image: morsecode,
         images:powerlift5x5,
         description: "My first API written in Java using SpringBoot and deployed using GCP",
         githublink:"https://github.com/JosieAilsa/react-powerlifting-tracker",

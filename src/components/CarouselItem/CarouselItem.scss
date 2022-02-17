@@ -12,11 +12,13 @@
     height: 14rem;
     border-radius: 1.5rem;
     overflow: hidden;
-
+    background-color: $color-blue;
+ 
 .carousel-item__image{
     width: 15rem;
     height: 14rem;
-    object-fit: cover;
+    filter: grayscale(100%);
+    opacity: 0.35;
 }
 }
 .carousel-item--2  .carousel-item--3, .carousel-item--4{

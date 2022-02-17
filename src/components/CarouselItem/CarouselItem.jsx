@@ -1,4 +1,5 @@
 import "./CarouselItem.scss"
+
 const CarouselItem = ({image, title, description, number}) => {
     return (
     <div className ="carousel-item">
