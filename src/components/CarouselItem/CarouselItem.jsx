@@ -2,7 +2,7 @@ import "./CarouselItem.scss"
 
 const CarouselItem = ({image, title, description, number}) => {
     return (
-    <div className ="carousel-item">
+    <div className ={`carousel-item carousel-item--${number}`}>
         <div className="carousel-item__image-wrap">
             <img src={image} className={`carousel-item__image carousel-item__image--${number}`} alt={`image${title}`} />
         </div>

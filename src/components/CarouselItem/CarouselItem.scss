@@ -6,27 +6,6 @@
 .carousel__container{
 .carousel-item{
     @include flex-center-column;
-.carousel-item__image-wrap{
-    border: 0.25rem solid $color-blue;
-    width: 15rem;
-    height: 14rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    background-color: $color-blue;
- 
-.carousel-item__image{
-    width: 15rem;
-    height: 14rem;
-    filter: grayscale(100%);
-    opacity: 0.35;
-}
-}
-.carousel-item--2  .carousel-item--3, .carousel-item--4{
-    display: none;
-    @media screen and (min-width: $tablet-breakpoint) {
-        display: block;
-    }
-}
 .carousel-item__copy{
     width: 15rem;
     .carousel-item__header{

@@ -1,0 +1,23 @@
+@use "../../assets/sass/abstracts/mixin" as *;
+@use "../../assets/sass/abstracts/variables" as *;
+
+.carousel-item__image-wrap{
+    border: 0.25rem solid $color-blue;
+    width: 15rem;
+    height: 14rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background-color: $color-blue;
+.carousel-item__image{
+    width: 15rem;
+    height: 14rem;
+    filter: grayscale(100%);
+    opacity: 0.35;
+}
+}
+.carousel-item__image-wrap--1, .carousel-item__image-wrap--3{
+    display: none;
+    @media only screen and (min-width: $tablet-breakpoint) {
+        display: block;
+    }
+}
