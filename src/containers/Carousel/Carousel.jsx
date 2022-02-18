@@ -7,7 +7,6 @@ import { useState } from "react";
 
 const Carousel = () => {
     const [currentProjectShown, setCurrentProjectShown] = useState(0)
-    console.log(currentProjectShown)
     const projectsCarouselJSX = projects.map((project, index) => {
         return <CarouselItem key = {index} image = {project.image} number={index} title = {project.projectTitile} description = {project.description}/>
     })
@@ -17,9 +16,7 @@ const Carousel = () => {
             currentProjectShown === 4 ? setCurrentProjectShown(0):setCurrentProjectShown(currentProjectShown + 1)
             return 
         }
-        console.log()
         currentProjectShown === 0 ? setCurrentProjectShown(4):setCurrentProjectShown(currentProjectShown - 1)
-        
     }
 
     return (
