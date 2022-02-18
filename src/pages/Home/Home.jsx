@@ -11,7 +11,7 @@ const Home = () => {
                         <h1 className="hero__header">Hi, I'm Josie.
                         </h1>
                         <h3 className="hero__intro">I'm Bristol-based UI developer and software coach.</h3>
-                       <Button content = "See my projects" classNames="hero__button hero__button--active"/>
+                       <Button content = "See my projects" value={"see-projects"}classNames="hero__button hero__button--active"/>
                     </section>
                     <img className="hero__image"src={heroImg} alt="hero image"/>
                </section>

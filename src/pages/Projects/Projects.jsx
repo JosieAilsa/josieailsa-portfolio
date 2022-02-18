@@ -1,4 +1,4 @@
-import Carousel from "../../components/Carousel/Carousel";
+import Carousel from "../../containers/Carousel/Carousel";
 
 const Projects = () => {
     return (
