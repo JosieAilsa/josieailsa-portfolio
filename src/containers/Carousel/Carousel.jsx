@@ -7,11 +7,9 @@ import { useState } from "react";
 import CarouselImage from "../../components/CarouselImage/CarouselImage";
 
 const Carousel = () => {
+    //Set the carousel to start and re-render when items change 
     const [currentProjectShown, setCurrentProjectShown] = useState(0)
-    const projectsCarouselJSX = projects.map((project, index) => {
-        return <CarouselItem key = {index} image = {project.image} number={index} title = {project.projectTitile} description = {project.description}/>
-    })
-    //Handle l and r  carousel button click 
+    //Handle l and r carousel button click 
     const onClick = (e) => {
     //If right click and id > 4, go back to start else + 1
         if(e.target.value === "click-right"){
@@ -38,18 +36,21 @@ const Carousel = () => {
     const [leftSideImg,rightSideImg] = findNextCarouselNum(currentProjectShown, projects.length)
 
     return (
-    <section className="carousel">
-        <div className="carousel__container">
-            <CarouselImage image={projects[leftSideImg].image} number={1} title={projects[currentProjectShown].title} />
-            {projectsCarouselJSX[currentProjectShown]}
-            <CarouselImage image={projects[rightSideImg].image} number={3} title={projects[currentProjectShown].title} />
-        </div>
-
-        <div className="carousel__buttons">
-            <Button classNames="carousel__button" value="click-left" onClick = {onClick}  content={<img src={Arrow} alt="" />}/>
-            <Button classNames="carousel__button" value="click-right" onClick = {onClick} content={<img src={Arrow} alt="" />}/>    
-        </div>
-    </section> 
+        <section className="carousel">
+            <div className="carousel__image-container">
+                <CarouselImage image={projects[leftSideImg].image} item={"left"} title={projects[currentProjectShown].projectTitle} />
+                <CarouselImage image={projects[currentProjectShown].image} item={"left"} title={projects[currentProjectShown].projectTitle} />
+                <CarouselImage image={projects[rightSideImg].image} item={"right"} title={projects[currentProjectShown].projectTitle} />
+            </div>
+            <div className="carousel__buttons">
+                <Button classNames="carousel__button" value="click-left" onClick = {onClick}  content={<img src={Arrow} alt="" />}/>
+                <Button classNames="carousel__button" value="click-right" onClick = {onClick} content={<img src={Arrow} alt="" />}/>    
+            </div>
+            <article className="carousel-item__copy">
+                <h3 className="carouse-item__header">{projects[currentProjectShown].projectTitile}</h3>
+                <p className="carousel-item__text">{projects[currentProjectShown].description}</p>
+            </article>
+        </section> 
      );
 }
  

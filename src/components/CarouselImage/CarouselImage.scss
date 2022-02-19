@@ -15,8 +15,10 @@
     opacity: 0.35;
 }
 }
+
 .carousel-item__image-wrap--1, .carousel-item__image-wrap--3{
     display: none;
+    position: relative;
     @media only screen and (min-width: $tablet-breakpoint) {
         display: block;
     }
