@@ -3,19 +3,25 @@
 
 .carousel{
     @include flex-center-column;
+
     .carousel__image-container{
         gap: 1rem;
         display: flex;
         justify-content: flex-start;
         width: 50%;
     }
-    .carousel-item__copy{
+    .carousel__buttons{
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
+    }
+    .carousel__copy{
             width: 50%;
-            .carousel-item__header{
+            .carousel__header{
                 width: 100%;
                 height: 20%; 
             }
-            .carousel-item__text {
+            .carousel__text {
                 width: 100%;
             }
     }

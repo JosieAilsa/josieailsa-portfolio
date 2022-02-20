@@ -5,7 +5,7 @@
     border: 0.25rem solid $color-blue;
     width: 15rem;
     height: 14rem;
-    border-radius: 1.5rem;
+    border-radius: $border-radius;
     overflow: hidden;
     background-color: $color-blue;
 .carousel-item__image{
@@ -16,9 +16,11 @@
 }
 }
 
-.carousel-item__image-wrap--1, .carousel-item__image-wrap--3{
+
+.carousel-item__image-wrap--left, .carousel-item__image-wrap--right{
     display: none;
     position: relative;
+    opacity: 50%;
     @media only screen and (min-width: $tablet-breakpoint) {
         display: block;
     }
