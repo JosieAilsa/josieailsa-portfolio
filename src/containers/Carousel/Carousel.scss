@@ -3,12 +3,30 @@
 
 .carousel{
     @include flex-center-column;
-
+    .carousel__blue-petal{
+        width: 3rem;
+    }
+    
     .carousel__image-container{
         gap: 1rem;
         display: flex;
         justify-content: flex-start;
         width: 50%;
+        .carousel__pink-flower{
+            width: 7rem;
+            position: absolute;
+            right: 71%;
+            align-self: center;
+            z-index: 1;
+        }
+        .carousel__orange-petals{
+            width: 3rem;
+            position: absolute;
+            right: 75%;
+            align-self: flex-start;
+            z-index: 1;
+            transform:rotate(-20deg);
+        }
     }
     .carousel__buttons{
         display: flex;

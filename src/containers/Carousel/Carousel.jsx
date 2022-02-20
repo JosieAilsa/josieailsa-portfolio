@@ -2,11 +2,11 @@ import Button from "../../components/Button/Button";
 import arrowLeft from "../../assets/images/icons/arrow-left.svg"
 import arrowRight from "../../assets/images/icons/arrow-right.svg"
 import "./Carousel.scss"
-import CarouselItem from "../../components/CarouselItem/CarouselItem";
 import {projects} from "../../assets/data/data"
 import { useState } from "react";
 import CarouselImage from "../../components/CarouselImage/CarouselImage";
-
+import pinkFlower from"../../assets/images/flowers/flowers-01.svg"
+import orangePetals from"../../assets/images/flowers/flowers-07.svg"
 
 const Carousel = () => {
     //Set the carousel to start and re-render when items change 
@@ -73,8 +73,9 @@ const Carousel = () => {
 
     return (
         <section className="carousel">
-            <img src="" alt="" />
             <div className="carousel__image-container">
+                <img className="carousel__orange-petals"src={orangePetals} alt="" />
+                <img className="carousel__pink-flower" src={pinkFlower} alt="" />
                 <CarouselImage image={projects[currentProjectShown].image} item={"main"} title={projects[currentProjectShown].projectTitle} />
                 <CarouselImage image={projects[leftSideImg].image} item={"left"} title={projects[currentProjectShown].projectTitle} />
                 <CarouselImage image={projects[rightSideImg].image} item={"right"} title={projects[currentProjectShown].projectTitle} />
