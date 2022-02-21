@@ -1,13 +1,13 @@
+import CarouselImage from "../CarouselImage/CarouselImage";
 import "./CarouselItem.scss"
-const CarouselItem = ({image, title, description, number}) => {
+
+const CarouselItem = ({image, title, description, item}) => {
     return (
-    <div className ="carousel-item">
-        <div className="carousel-item__image-wrap">
-            <img src={image} className={`carousel-item__image carousel-item__image--${number}`} alt={`image${title}`} />
-        </div>
+    <div className ={`carousel-item carousel-item--${item}`}>
+        <CarouselImage image={image} item ={item} title={title}/>
         <article className="carousel-item__copy">
-            <h3 className="carouse-iteml__header">{title}</h3>
-            <p className="carousel-tem__text">{description}</p>
+            <h3 className="carouse-item__header">{title}</h3>
+            <p className="carousel-item__text">{description}</p>
         </article>
     </div>   
     );
