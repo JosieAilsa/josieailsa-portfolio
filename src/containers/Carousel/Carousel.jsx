@@ -74,8 +74,8 @@ const Carousel = () => {
     return (
         <section className="carousel">
             <div className="carousel__image-container">
-                <img className="carousel__orange-petals"src={orangePetals} alt="" />
-                <img className="carousel__pink-flower" src={pinkFlower} alt="" />
+            <img className="carousel__orange-petals"src={orangePetals} alt="" />
+            <img className="carousel__pink-flower" src={pinkFlower} alt="" />
                 <CarouselImage image={projects[currentProjectShown].image} item={"main"} title={projects[currentProjectShown].projectTitle} />
                 <CarouselImage image={projects[leftSideImg].image} item={"left"} title={projects[currentProjectShown].projectTitle} />
                 <CarouselImage image={projects[rightSideImg].image} item={"right"} title={projects[currentProjectShown].projectTitle} />

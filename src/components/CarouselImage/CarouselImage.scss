@@ -21,7 +21,8 @@
     display: none;
     position: relative;
     opacity: 50%;
-    @media only screen and (min-width: $tablet-breakpoint) {
+    @media only screen and (min-width: $desktop-breakpoint) {
         display: block;
     }
 }
+
