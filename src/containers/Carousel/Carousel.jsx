@@ -77,8 +77,9 @@ const Carousel = () => {
             <img className="carousel__orange-petals"src={orangePetals} alt="" />
             <img className="carousel__pink-flower" src={pinkFlower} alt="" />
                 <CarouselImage image={projects[currentProjectShown].image} item={"main"} title={projects[currentProjectShown].projectTitle} />
-                <CarouselImage image={projects[leftSideImg].image} item={"left"} title={projects[currentProjectShown].projectTitle} />
-                <CarouselImage image={projects[rightSideImg].image} item={"right"} title={projects[currentProjectShown].projectTitle} />
+                <CarouselImage image={projects[leftSideImg].image} item={"two"} title={projects[currentProjectShown].projectTitle} />
+                <CarouselImage image={projects[rightSideImg].image} item={"three"} title={projects[currentProjectShown].projectTitle} />
+                <CarouselImage image={projects[rightSideImg].image} item={"four"} title={projects[currentProjectShown].projectTitle} />
             </div>
             <div className="carousel__buttons">
                 <Button classNames="carousel__button carousel__button-left carousel__button--inactive" onClick = {onClick}  content={<img data-id ="click-left" className ="carousel__button-image" src={arrowLeft} alt="" />}/>

@@ -2,19 +2,11 @@
 @use "../../assets/sass/abstracts/variables" as *;
 
 .carousel{
-    @include flex-center-column;
-    gap:1rem;
-    flex-grow: 1;
+    grid-area: 3/3/7/13;
     .carousel__image-container{
         position: relative;
         gap: 1rem;
         display: flex;
-        justify-content: center;
-        width: 75%;
-        @media only screen and (min-width: $desktop-breakpoint) {
-            width: 50%;
-            justify-content: space-between;
-          }
 
               
     .carousel__pink-flower{
@@ -22,24 +14,24 @@
         width: 7rem;
         position: absolute;
         z-index: 1;
-        left: -5%;
+        left: -9%;
         top: 42%;
-        // @media only screen and (min-width: $desktop-breakpoint) {
-        //     left: -5%;
-        //     top: 42%;
-        // }
+        @media only screen and (min-width: $desktop-breakpoint) {
+            left: -4%;
+        }
+        //    left: -9%;
         
     }
     .carousel__orange-petals{
         width: 3rem;
         position: absolute;
-        left: 0%;
+        left: -14%;
         top: 4%;
         z-index: 1;
         transform:rotate(-20deg);
         @media only screen and (min-width: $desktop-breakpoint) {
             left: -3%;
-          }
+        }
     }
 
     }
@@ -47,6 +39,7 @@
         display: flex;
         justify-content: flex-start;
         width: 50%;
+        margin: 1rem 0rem;
     }
     .carousel__copy{
             width: 75%;

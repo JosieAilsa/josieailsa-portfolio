@@ -4,21 +4,14 @@
 @use"../../assets/sass/base/resets" as *;
 
 .home{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    @media only screen and (min-width: $desktop-breakpoint) {
-    @include flex-center-column
-    }
     .hero{
         @include flex-center-column;
         width: 100%;
+        grid-area: 2/1/10/13;
         @media only screen and (min-width: $desktop-breakpoint) {
-        display: flex;
+        grid-area: 1/1/9/13;
         flex-direction: row-reverse;
         }
-    
     .hero__image{
         width: 85%;
         padding: 2rem;
@@ -27,20 +20,17 @@
             }
         @media only screen and (min-width: $desktop-breakpoint) {
             max-width: 35%;
-            }
-         
+        }     
     }
-    
-    
     .hero__text{
         color: $color-green;
         @include flex-center-column;
         width: 70%;
-        gap:1rem;
+        gap:2rem;
         text-align: center;
         @media only screen and (min-width: $desktop-breakpoint) {
             width: 50%;
-            padding: 2rem;
+            padding: 3rem;
         }
         .hero__header{
             font-family: $font-accent;

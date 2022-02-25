@@ -46,8 +46,15 @@ export const projects =
         projectTitile: "5x5 Powerlift API",
         languages: ["Java", "Spring Boot", "GCP", "SQL"],
         image: morsecode,
-        images:powerlift5x5,
         description: "My first API written in Java using SpringBoot and deployed using GCP",
+        githublink:"https://github.com/JosieAilsa/react-powerlifting-tracker",
+    },
+    {
+        id: 6,
+        projectTitile: "Piglatin translator",
+        languages: ["JavaScript"],
+        image: morsecode,
+        description: "A pig latin translator written, written and unit tested with jest - written in TDD approach",
         githublink:"https://github.com/JosieAilsa/react-powerlifting-tracker",
     }
 
