@@ -7,10 +7,13 @@ import { useState } from "react";
 import CarouselImage from "../../components/CarouselImage/CarouselImage";
 import pinkFlower from"../../assets/images/flowers/flowers-01.svg"
 import orangePetals from"../../assets/images/flowers/flowers-07.svg"
+import page from "../../assets/images/icons/page.svg"
+import code from "../../assets/images/icons/github.svg"
 
 const Carousel = () => {
     //Set the carousel to start and re-render when items change 
     const [currentProjectShown, setCurrentProjectShown] = useState(0)
+
    
     //Handle l and r carousel button click 
     const onClick = (e) => {
@@ -88,6 +91,12 @@ const Carousel = () => {
             <article className="carousel__copy">
                 <h3 className="carousel__header">{`${projects[currentProjectShown].id}. ${projects[currentProjectShown].projectTitile}`}</h3>
                 <p className="carousel__text">{projects[currentProjectShown].description}</p>
+                <ul>Written with:
+                    {projects[currentProjectShown].languages.map(language => <li>{language}</li>)}
+                </ul>
+                <a href={projects[currentProjectShown].githubLink}><img className="carousel__icon" src={page} alt="github" /></a>
+                <a href={projects[currentProjectShown].deployLink}><img className="carousel__icon"src={code} alt="github" /></a>
+
             </article>
         </section> 
      );
