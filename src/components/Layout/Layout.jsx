@@ -1,11 +1,11 @@
 import Nav from "../Nav/Nav";
-const Layout = ({children}) => {
-    return (
+const Layout = ({ children }) => {
+  return (
     <>
-        <Nav/>
-            {children}
+      <Nav />
+      {children}
     </>
-      );
-}
- 
+  );
+};
+
 export default Layout;

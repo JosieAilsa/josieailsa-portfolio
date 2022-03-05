@@ -1,16 +1,24 @@
-@use "../abstracts/variables" as *; 
+@use "../abstracts/variables" as *;
 
-h1,h2,h3,h4,h5 {
-    font-family: $font-accent;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-accent;
 }
 
 p {
-    font-family: $font-body;
+  font-family: $font-body;
 }
 
-h2{
-    font-size: 4rem;
+h2 {
+  font-size: 4rem;
 }
-h3{
-    font-size: 2.5rem;
+h3 {
+  font-size: 2.5rem;
+}
+a {
+  text-decoration: none;
+  font-family: $font-body;
 }

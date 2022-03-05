@@ -1,22 +1,22 @@
-@use "../../assets/sass/abstracts/variables" as * ;
-@use "../../assets/sass/base/resets" as * ;
+@use "../../assets/sass/abstracts/variables" as *;
+@use "../../assets/sass/base/resets" as *;
 
-.nav__draw{
-    gap:2rem;
-    background-color: $color-background;
-    color: $color-green;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    width:33vw;
-    z-index: 1;
-    left:70vw;
-    top: 8vh;
-    padding: 2rem;
-    position: fixed;
-    border-bottom-left-radius:1rem;
+.nav__draw {
+  gap: 2rem;
+  background-color: $color-background;
+  color: $color-green;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+  z-index: 1;
+  left: 70vw;
+  top: 8vh;
+  padding: 2rem;
+  position: fixed;
+  border-bottom-left-radius: 1rem;
 
-    .nav__draw-link{
-        size: 2rem;
-    }
+  .nav__draw-link {
+    size: 2rem;
+  }
 }

@@ -1,73 +1,70 @@
-@use '../../assets/sass/abstracts/mixin' as *;
-@use '../../assets/sass/abstracts/variables' as *;
+@use "../../assets/sass/abstracts/mixin" as *;
+@use "../../assets/sass/abstracts/variables" as *;
 
 .landing {
-    width: 100vw;
-    height: 100vh;
-    background-image:linear-gradient(110deg, #a9bfde 45%, #faf4ed);
-    @include flex-center-column;
-    
-.landing__artwork{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(110deg, #a9bfde 45%, #faf4ed);
+  @include flex-center-column;
+
+  .landing__artwork {
     display: flex;
     justify-content: space-between;
     width: 100%;
     .landing__art {
-        z-index: 1;
-        height: 10vmin;
-        width:10vmin;
+      z-index: 1;
+      height: 10vmin;
+      width: 10vmin;
     }
-}
-.landing__flower-1{
+  }
+  .landing__flower-1 {
     position: relative;
     top: -5vh;
-    animation-name: 
-        floatDown,
-        rotateFlower
-    ;
+    animation-name: floatDown, rotateFlower;
     animation-iteration-count: 1, infinite;
-    animation-delay: 2000ms ;  
-    animation-duration: 10s ;
-    animation-fill-mode: both; 
-}
+    animation-delay: 2000ms;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+  }
 
-.landing-hero{
+  .landing-hero {
     @include flex-center-row;
     flex-grow: 1;
 
-    .landing-hero__logo{
-        width: 30vmin;
-        height: 30vmin;
+    .landing-hero__logo {
+      width: 30vmin;
+      height: 30vmin;
     }
-}
+  }
 
-.landing__cta {
+  .landing__cta {
     padding: 1rem;
     font-family: $font-accent;
     color: $color-green;
     font-size: 1.5rem;
-}
+  }
 }
 
 @keyframes rotateFlower {
-    from{
-        transform: rotateZ(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes floatDown {
-    0%{
-      transform: translateY(5vh);
-    }
-    15% {
-      transform: translateY(10vh);
-    }
-    50% {
-      transform: translateY(55vh);
-    }
-    85% {
-      transform: translateY(110vh);
-    }
+  0% {
+    transform: translateY(5vh);
+  }
+  15% {
+    transform: translateY(10vh);
+  }
+  50% {
+    transform: translateY(55vh);
+  }
+  85% {
+    transform: translateY(110vh);
+  }
 }

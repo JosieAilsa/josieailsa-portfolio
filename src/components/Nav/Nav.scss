@@ -1,8 +1,8 @@
 @use "../../assets/sass/abstracts/variables" as *;
 
-header{
-    position:absolute;
-.navbar{
+header {
+  position: absolute;
+  .navbar {
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -11,32 +11,30 @@ header{
     height: 8vh;
     background-color: $color-background;
     border-bottom: $color-green-opacity 1px solid;
-    .navbar__logo{
-        height: 50%;
-        padding:0 3rem;
+    .navbar__logo {
+      height: 50%;
+      padding: 0 3rem;
     }
 
-    .navbar__links{
-        list-style-type: none;
-        color: $color-green;
-        display: none;
-        width: 75%;
-        @media only screen and (min-width: $desktop-breakpoint) {
+    .navbar__links {
+      list-style-type: none;
+      color: $color-green;
+      display: none;
+      width: 75%;
+      @media only screen and (min-width: $desktop-breakpoint) {
         display: flex;
         justify-content: space-around;
         text-align: end;
-        }
-        
+      }
     }
-    .navbar__hamburger{
-        padding-right: 2rem;
-        height: 4vmin;
-        display: flex;
-        justify-content: end;
-    @media only screen and (min-width: 1024px)  {
+    .navbar__hamburger {
+      padding-right: 2rem;
+      height: 4vmin;
+      display: flex;
+      justify-content: end;
+      @media only screen and (min-width: 1024px) {
         display: none;
-        
+      }
     }
-    }
-}
+  }
 }

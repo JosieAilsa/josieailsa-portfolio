@@ -1,36 +1,56 @@
 @use "../../assets/sass/abstracts/variables" as *;
 @use "../../assets/sass/abstracts/mixin" as *;
 
-.hero__button{
-    background-color: $color-pink;
-    border: 2px solid $color-green-opacity;
-    padding: 1rem;
-    align-self: center;
-    font-size: 1rem;
-    color: $color-green;
-    font-family: $font-body;
-    font-weight: 500;
-    border-radius: 2rem;
-    margin-top: 2rem;
+.hero__button {
+  background-color: $color-pink;
+  border: 2px solid $color-green-opacity;
+  padding: 1rem;
+  align-self: center;
+  font-size: 1rem;
+  color: $color-green;
+  font-family: $font-body;
+  font-weight: 500;
+  border-radius: 2rem;
+  margin-top: 2rem;
 }
-.hero__button--active:hover{
-        background-color: $color-green;
-        color: $color-pink;
-        transition: 0.25s ease-in-out;
+.hero__button--active:hover {
+  background-color: $color-green;
+  color: $color-pink;
+  transition: 0.25s ease-in-out;
 }
 
-.carousel__button{
-    width: 2rem;
-    height: 2rem;
-    border-radius:0.25rem;
-    @include flex-center-column;
-    border: none;
-    background-color: $color-pink;
-    .carousel__button-image{
-        width: 1rem;
-        height: 1rem;
-    }
+.carousel__button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  @include flex-center-column;
+  border: none;
+  background-color: $color-pink;
+  .carousel__button-image {
+    width: 1rem;
+    height: 1rem;
+  }
 }
-.carousel__button--inactive{
-    opacity: 50%;
+.carousel__button--inactive {
+  opacity: 50%;
+}
+.carousel__copy-button {
+  background-color: $color-green;
+  border: none;
+  width: 8.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  > a {
+    color: $color-pink;
+    text-decoration: none;
+    font-weight: 800;
+  }
+}
+.carousel__copy-button:hover {
+  background-color: $color-pink;
+  transition: 0.25s ease-in-out;
+  > a {
+    color: $color-green;
+    transition: 0.25s ease-in-out;
+  }
 }

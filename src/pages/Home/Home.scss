@@ -1,59 +1,58 @@
-@use "../../assets/sass/abstracts/variables" as *; 
-@use "../../assets/sass/layout/layout" as *; 
+@use "../../assets/sass/abstracts/variables" as *;
+@use "../../assets/sass/layout/layout" as *;
 @use "../../assets/sass/abstracts/mixin" as *;
-@use"../../assets/sass/base/resets" as *;
+@use "../../assets/sass/base/resets" as *;
 
-.home{
-    .hero{
-        @include flex-center-column;
-        width: 100%;
-        grid-area: 2/1/10/13;
-        @media only screen and (min-width: $desktop-breakpoint) {
-        grid-area: 1/1/9/13;
-        flex-direction: row-reverse;
-        }
-    .hero__image{
-        width: 85%;
-        padding: 2rem;
-        @media only screen and (min-width: $tablet-breakpoint) {
-            max-width: 65%;
-            }
-        @media only screen and (min-width: $desktop-breakpoint) {
-            max-width: 35%;
-        }     
+.home {
+  .hero {
+    @include flex-center-column;
+    width: 100%;
+    grid-area: 2/1/10/13;
+    @media only screen and (min-width: $desktop-breakpoint) {
+      grid-area: 1/1/9/13;
+      flex-direction: row-reverse;
     }
-    .hero__text{
-        color: $color-green;
-        @include flex-center-column;
-        width: 70%;
-        gap:2rem;
-        text-align: center;
+    .hero__image {
+      width: 85%;
+      padding: 2rem;
+      @media only screen and (min-width: $tablet-breakpoint) {
+        max-width: 65%;
+      }
+      @media only screen and (min-width: $desktop-breakpoint) {
+        max-width: 35%;
+      }
+    }
+    .hero__text {
+      color: $color-green;
+      @include flex-center-column;
+      width: 70%;
+      gap: 2rem;
+      text-align: center;
+      @media only screen and (min-width: $desktop-breakpoint) {
+        width: 50%;
+        padding: 3rem;
+      }
+      .hero__header {
+        font-family: $font-accent;
+        font-size: 2.15rem;
+        font-weight: 400;
+        font-style: italic;
         @media only screen and (min-width: $desktop-breakpoint) {
-            width: 50%;
-            padding: 3rem;
+          font-size: 5rem;
+          text-align: left;
+          white-space: nowrap;
         }
-        .hero__header{
-            font-family: $font-accent;
-            font-size: 2.15rem;
-            font-weight: 400;
-            font-style: italic;
-            @media only screen and (min-width: $desktop-breakpoint) {
-            font-size: 5rem;
-            text-align: left;
-            white-space: nowrap;
-            }
-        }
-        .hero__intro{
-            font-family: $font-body;
-            font-size: 1.25rem;
-            font-weight: 500;
+      }
+      .hero__intro {
+        font-family: $font-body;
+        font-size: 1.25rem;
+        font-weight: 500;
 
-            @media only screen and (min-width: $desktop-breakpoint) {
-                font-size: 2rem;
-                text-align: center;
-                }
-            }
+        @media only screen and (min-width: $desktop-breakpoint) {
+          font-size: 2rem;
+          text-align: center;
         }
-        }
+      }
     }
-  
+  }
+}

@@ -1,28 +1,29 @@
 @use "../../assets/sass/abstracts/mixin" as *;
 @use "../../assets/sass/abstracts/variables" as *;
 
-.carousel-item__image-wrap{
-    border: 0.25rem solid $color-blue;
-    width: 15rem;
-    height: 14rem;
-    border-radius: $border-radius;
-    overflow: hidden;
-    background-color: $color-blue;
-.carousel-item__image{
+.carousel-item__image-wrap {
+  border: 0.25rem solid $color-blue;
+  width: 15rem;
+  height: 14rem;
+  border-radius: $border-radius;
+  overflow: hidden;
+  background-color: $color-blue;
+  .carousel-item__image {
     width: 15rem;
     height: 14rem;
     filter: grayscale(100%);
     opacity: 0.35;
-}
-}
-
-
-.carousel-item__image-wrap--two, .carousel-item__image-wrap--three, .carousel-item__image-wrap--four{
-    display: none;
-    position: relative;
-    opacity: 50%;
-    @media only screen and (min-width: $desktop-breakpoint) {
-        display: block;
-    }
+    object-fit: cover;
+  }
 }
 
+.carousel-item__image-wrap--two,
+.carousel-item__image-wrap--three,
+.carousel-item__image-wrap--four {
+  display: none;
+  position: relative;
+  opacity: 50%;
+  @media only screen and (min-width: $desktop-breakpoint) {
+    display: block;
+  }
+}
