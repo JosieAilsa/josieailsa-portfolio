@@ -3,6 +3,7 @@ import hamburger from "../../assets/images/icons/hamburger.svg";
 import logo from "../../assets/images/icons/jnlogo-02.svg";
 import NavDraw from "../NavDraw/NavDraw";
 import "./Nav.scss";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [drawIsOpen, setDrawIsOpen] = useState(false);
@@ -17,9 +18,9 @@ const Nav = () => {
         <nav className="navbar">
           <img src={logo} className="navbar__logo" alt="logo" />
           <ul className="navbar__links">
-            <li className="navbar__link">projects</li>
+            <li className="navbar__link"><Link to ="/">home</Link></li>
+            <li className="navbar__link"><Link to ="/projects">projects</Link></li>
             <li className="navbar__link">skills</li>
-            <li className="navbar__link">contact</li>
           </ul>
           <img
             onClick={handleClick}

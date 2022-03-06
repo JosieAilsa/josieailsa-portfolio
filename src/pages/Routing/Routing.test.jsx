@@ -1,7 +1,7 @@
 import { customRender } from "../../utils/testutils";
-import Main from "./Main";
+import Routing from "./Routing";
 
 test("Main page should render", () => {
-  const { container } = customRender(<Main />);
+  const { container } = customRender(<Routing />);
   expect(container).toMatchSnapshot();
 });

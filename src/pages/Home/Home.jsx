@@ -1,10 +1,12 @@
 import heroImg from "../../assets/images/landing-img.svg";
 import "./Home.scss";
 import Button from "../../components/Button/Button";
+import Layout from "../../components/Layout/Layout";
 
 const Home = () => {
   return (
     <div className="home page">
+      <Layout>
       <section className="hero">
         <section className="hero__text">
           <h1 className="hero__header">Hi, I'm Josie.</h1>
@@ -12,13 +14,14 @@ const Home = () => {
             I'm Bristol-based UI developer and software coach.
           </h3>
           <Button
-            content="See my projects"
+            content={"See my projects"}
             value={"see-projects"}
             classNames="hero__button hero__button--active"
           />
         </section>
         <img className="hero__image" src={heroImg} alt="hero image" />
       </section>
+    </Layout>
     </div>
   );
 };

@@ -2,17 +2,20 @@
 @use "../../assets/sass/abstracts/variables" as *;
 
 .carousel {
-  grid-area: 2/3/8/11;
+  grid-area: 3/3/8/11;
   .carousel__image-container {
     position: relative;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
-    .carousel__pink-flower {
-      width: 7rem;
-      width: 7rem;
+   display: flex;
+   gap: 0.25rem;
+    
+    .carousel__flower{
       position: absolute;
       z-index: 1;
+    }
+    
+    .carousel__flower--pink {
+      width: 7rem;
+      width: 7rem;
       left: -9%;
       top: 42%;
       @media only screen and (min-width: $desktop-breakpoint) {
@@ -20,16 +23,20 @@
       }
       //    left: -9%;
     }
-    .carousel__orange-petals {
+    .carousel__flower--petals {
       width: 3rem;
-      position: absolute;
-      left: -14%;
+      left: -7%;
       top: 4%;
-      z-index: 1;
       transform: rotate(-20deg);
       @media only screen and (min-width: $desktop-breakpoint) {
         left: -3%;
       }
+    }
+    .carousel__flower--blue {
+      width: 6rem;
+      height: 6rem;
+      left: 85%;
+      top: 75%;
     }
   }
   .carousel__buttons {

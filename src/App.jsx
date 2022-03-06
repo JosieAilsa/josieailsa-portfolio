@@ -1,5 +1,5 @@
 import "./App.css";
-import Main from "./pages/Main/Main";
+import Routing from "./pages/Routing/Routing";
 import Landing from "./pages/Landing/Landing";
 import { useState } from "react";
 
@@ -15,7 +15,9 @@ const App = () => {
   return (
     <body>
       {showLanding && <Landing handleLandingHover={handleLandingHover} />}
-      {showMain && <Main />}
+      {showMain && 
+        <Routing/>
+      }
     </body>
   );
 };
