@@ -5,31 +5,138 @@
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(110deg, #a9bfde 45%, #faf4ed);
-  @include flex-center-column;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
 
   .landing__artwork {
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     .landing__art {
       z-index: 1;
       height: 10vmin;
       width: 10vmin;
-    }
-  }
-  .landing__flower-1 {
+  &:nth-child(1) {
     position: relative;
-    top: -5vh;
-    animation-name: floatDown, rotateFlower;
-    animation-iteration-count: 1, infinite;
+    animation:  linear infinite;
+    animation-name: floatDown;
     animation-delay: 2000ms;
     animation-duration: 10s;
-    animation-fill-mode: both;
+    top: -10%;
   }
+  &:nth-child(2) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 10ms;
+    animation-duration: 15s;
+    top: -10%;
+  }
+  &:nth-child(3) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 0ms;
+    animation-duration: 9s;
+    top: -10%;
+  }
+  &:nth-child(4) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 1600ms;
+    animation-duration: 25s;
+    top: -10%;
+  }
+  &:nth-child(5) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 20ms;
+    animation-duration: 17s;
+    top: -10%;
+  }
+  &:nth-child(6) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 70ms;
+    animation-duration: 12s;
+    top: -10%;
+  }
+  &:nth-child(7) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 70ms;
+    animation-duration: 25s;
+    top: -10%;
+  } 
+  &:nth-child(8) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 20ms;
+    animation-duration: 12s;
+    top: -10%;
+  } 
+  &:nth-child(8) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 10ms;
+    animation-duration: 31s;
+    top: -10%;
+  } 
+  &:nth-child(9) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 17ms;
+    animation-duration: 15s;
+    top: -10%;
+  } 
+  &:nth-child(10) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 5ms;
+    animation-duration: 12s;
+    top: -10%;
+  } 
+  &:nth-child(10) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 10ms;
+    animation-duration: 7s;
+    top: -10%;
+  } 
+  &:nth-child(11) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 2ms;
+    animation-duration: 9s;
+    top: -10%;
+  } 
+  }
+}
 
   .landing-hero {
-    @include flex-center-row;
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    height: 60vh;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
 
     .landing-hero__logo {
       width: 30vmin;
@@ -44,27 +151,30 @@
     font-size: 1.5rem;
   }
 }
-
-@keyframes rotateFlower {
-  from {
-    transform: rotateZ(0deg);
+@keyframes floatDown{
+  0%{
+    opacity:0;
+    top: -10%;
+    transform:translateX(20px) rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  10%{
+    opacity:1;
   }
-}
-
-@keyframes floatDown {
-  0% {
-    transform: translateY(5vh);
+  20%{
+    transform:translateX(-40px) rotate(45deg);
   }
-  15% {
-    transform: translateY(10vh);
+  40%{
+    transform:translateX(-20px) rotate(90deg);
   }
-  50% {
-    transform: translateY(55vh);
+  60%{
+    transform:translateX(-20px) rotate(180deg);
   }
-  85% {
-    transform: translateY(110vh);
+  80%{
+    transform:translateX(-20px) rotate(200deg);
+  }
+  100%{
+    top: 110%;
+    transform:translateX(-20px) rotate(225deg);
+    opacity:0;
   }
 }

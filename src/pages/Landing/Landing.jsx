@@ -12,47 +12,67 @@ const Landing = ({ handleLandingHover }) => {
     <main class="landing" id="landing">
       <div className="landing__artwork">
         <img
-          className="landing__art landing__flower-1"
-          src={pinkFlower}
-          alt=""
-        />
-        <img
-          className="landing__art landing__flower-2"
-          src={orangeFlower}
-          alt=""
-        />
-        <img
-          className="landing__art landing__flower-3"
+          className="landing__art "
           src={greenLeaf}
           alt=""
         />
         <img
-          className="landing__art landing__flower-4"
+          className="landing__art "
           src={pinkFlower}
           alt=""
         />
         <img
-          className="landing__art landing__flower-5"
+          className="landing__art "
+          src={orangeFlower}
+          alt=""
+        />
+        <img
+          className="landing__art "
+          src={greenLeaf}
+          alt=""
+        />
+        <img
+          className="landing__art "
+          src={pinkFlower}
+          alt=""
+        />
+        <img
+          className="landing__art "
           src={whiteFlower}
           alt=""
         />
         <img
-          className="landing__art landing__flower-6"
+          className="landing__art "
           src={orangePetals}
           alt=""
         />
-        <img
-          className="landing__art landing__flower-7"
-          src={whitePetals}
+         <img
+          className="landing__art "
+          src={greenLeaf}
+          alt=""
+        />
+         <img
+          className="landing__art "
+          src={whiteFlower}
+          alt=""
+        />
+          <img
+          className="landing__art "
+          src={orangePetals}
+          alt=""
+        />
+         <img
+          className="landing__art "
+          src={pinkFlower}
           alt=""
         />
       </div>
       <section className="landing-hero">
         <img src={logo} alt="jnlogo" srcset="" className="landing-hero__logo" />
+        <p onMouseOver={handleLandingHover} className="landing__cta">
+          See portfolio
+        </p>
       </section>
-      <p onMouseOver={handleLandingHover} className="landing__cta">
-        See portfolio
-      </p>
     </main>
   );
 };
