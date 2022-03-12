@@ -5,7 +5,7 @@ import Layout from "../../components/Layout/Layout";
 
 const Home = () => {
   return (
-    <div className="home page">
+    <div id="home" className="home page">
       <Layout>
       <section className="hero">
         <section className="hero__text">
