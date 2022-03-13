@@ -1,7 +1,7 @@
 import "./App.css";
 import Landing from "./pages/Landing/Landing";
 import { useState } from "react";
-import Main from "./pages/Routing/Main";
+import Main from "./pages/Main/Main";
 
 const App = () => {
   const [showLanding, setShowLanding] = useState(true);

@@ -1,6 +1,10 @@
 import powerlift5x5 from "../images/projects/powerlift5x5.png";
 import morsecode from "../images/projects/morsecodetranslator.png";
 import calculator from "../images/projects/calculator.png";
+import oae from "../../assets/images/projects/oae.png"
+import api from "../../assets/images/projects/api.jpeg"
+import piglatin from "../images/projects/piglatin.png"
+import java from "../../assets/images/projects/java.png"
 
 export const projects = [
   {
@@ -30,7 +34,7 @@ export const projects = [
     images: morsecode,
     description:
       "Together with my _nology cohort, we developed a full-stack client project for the Orchestera of the Age of Englightenment. Working as part of a 12-man team, I worked on thefront end, creating a digital event programme webb app for attendees to access during the orchestra's events. The front-end was developed with ",
-    image: morsecode,
+    image: oae,
     codebase: "https://github.com/nology-tech/oae-event-programme",
     liveSite: "https://nology-tech.github.io/oae-event-programme/6",
   },
@@ -48,7 +52,7 @@ export const projects = [
     id: 5,
     projectTitile: "5x5 Powerlift API",
     languages: ["Java", "Spring Boot", "GCP", "SQL"],
-    image: morsecode,
+    image: api,
     description:
       "My first API written in Java using SpringBoot and deployed using GCP",
     codebase: "https://github.com/JosieAilsa/react-powerlifting-tracker",
@@ -57,7 +61,7 @@ export const projects = [
     id: 6,
     projectTitile: "Piglatin translator",
     languages: ["JavaScript"],
-    image: morsecode,
+    image: piglatin,
     description:
       "A pig latin translator written, written and unit tested with jest - written in TDD approach",
     codebase: "https://github.com/JosieAilsa/react-powerlifting-tracker",
@@ -66,9 +70,9 @@ export const projects = [
     id: 7,
     projectTitile: "Java Snap",
     languages: ["Java"],
-    image: morsecode,
+    image: java,
     description:
-      "My first independent Java projecr. This simple two player console snap game, helped me get to grips with the basics of inheritence and enscapsulation, key OOP concepts. ",
+      "My first independent Java project. This simple two player timed, console-based game of snap helped me grasp the basics of key OOP concepts like inheritance and encapsulation. ",
     codebase: "https://github.com/JosieAilsa/java-game-challenge",
     liveSite: "",
   },
