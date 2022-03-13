@@ -83,7 +83,7 @@ const Carousel = () => {
       <div className="carousel__image-container">
         <img className="carousel__flower carousel__flower--petals" src={orangePetals} alt="" />
         <img className="carousel__flower carousel__flower--pink" src={pinkFlower} alt="" />
-        <img className="carousel__flower carousel__flower--blue" src={greenFlower} alt="" />
+        <img className="carousel__flower carousel__flower--green" src={greenFlower} alt="" />
         <CarouselImage
           image={projects[currentProjectShown].image}
           item={"main"}

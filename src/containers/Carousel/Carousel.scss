@@ -3,6 +3,7 @@
 
 .carousel {
   grid-area: 3/3/8/11;
+  animation: 10s ease-out 1s fadeIn;
   .carousel__image-container {
     position: relative;
    display: flex;
@@ -16,7 +17,7 @@
     .carousel__flower--pink {
       width: 7rem;
       width: 7rem;
-      left: -9%;
+      left: -19%;
       top: 42%;
       @media only screen and (min-width: $desktop-breakpoint) {
         left: -4%;
@@ -25,18 +26,21 @@
     }
     .carousel__flower--petals {
       width: 3rem;
-      left: -7%;
+      left: -12%;
       top: 4%;
       transform: rotate(-20deg);
       @media only screen and (min-width: $desktop-breakpoint) {
         left: -3%;
       }
     }
-    .carousel__flower--blue {
+    .carousel__flower--green {
       width: 6rem;
       height: 6rem;
-      left: 85%;
+      left: 66%;
       top: 75%;
+      @media only screen and (min-width: $desktop-breakpoint) {
+        left: 88%;
+      }
     }
   }
   .carousel__buttons {
@@ -44,5 +48,14 @@
     justify-content: flex-start;
     width: 50%;
     margin: 1rem 0rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity: 1;
   }
 }

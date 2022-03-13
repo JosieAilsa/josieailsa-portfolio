@@ -59,7 +59,7 @@ export const projects = [
   },
   {
     id: 6,
-    projectTitile: "Piglatin translator",
+    projectTitile: "Piglatin Translator",
     languages: ["JavaScript"],
     image: piglatin,
     description:
