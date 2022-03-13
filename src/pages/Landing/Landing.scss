@@ -16,15 +16,25 @@
     height: 100vh;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    // @media only screen and (min-width: $tablet-breakpoint ){
+    //   flex-wrap: nowrap;
+    // }
     .landing__art {
       z-index: 1;
-      height: 10vmin;
-      width: 10vmin;
+      height: 5rem;
+      width: 5rem;    
+      @media only screen and (min-width: $tablet-breakpoint ){
+        height: 10vmin;
+        width: 10vmin;
+      }
+
+
   &:nth-child(1) {
     position: relative;
     animation:  linear infinite;
     animation-name: floatDown;
-    animation-delay: 2000ms;
+    animation-delay: random(200)ms;
     animation-duration: 10s;
     top: -10%;
   }
@@ -32,7 +42,7 @@
     position: relative;
     animation:  linear infinite;
     animation-name: floatDown;
-    animation-delay: 10ms;
+    animation-delay: 1000ms;
     animation-duration: 15s;
     top: -10%;
   }
@@ -48,7 +58,7 @@
     position: relative;
     animation:  linear infinite;
     animation-name: floatDown;
-    animation-delay: 1600ms;
+    animation-delay: 500ms;
     animation-duration: 25s;
     top: -10%;
   }
@@ -60,21 +70,25 @@
     animation-duration: 17s;
     top: -10%;
   }
+
   &:nth-child(6) {
     position: relative;
     animation:  linear infinite;
     animation-name: floatDown;
-    animation-delay: 70ms;
+    animation-delay: 1500ms;
     animation-duration: 12s;
-    top: -10%;
+    top: -70%;
+    @media only screen and (min-width: $tablet-breakpoint ){
+      top: -10%;
+    }
   }
   &:nth-child(7) {
     position: relative;
     animation:  linear infinite;
     animation-name: floatDown;
-    animation-delay: 70ms;
+    animation-delay: 1000ms;
     animation-duration: 25s;
-    top: -10%;
+    top: -50%;
   } 
   &:nth-child(8) {
     position: relative;
@@ -84,45 +98,45 @@
     animation-duration: 12s;
     top: -10%;
   } 
-  &:nth-child(8) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 10ms;
-    animation-duration: 31s;
-    top: -10%;
-  } 
   &:nth-child(9) {
     position: relative;
     animation:  linear infinite;
     animation-name: floatDown;
-    animation-delay: 17ms;
-    animation-duration: 15s;
-    top: -10%;
+    animation-delay: 750ms;
+    animation-duration: 31s;
+    top: -50%;
   } 
   &:nth-child(10) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 5ms;
-    animation-duration: 12s;
-    top: -10%;
-  } 
-  &:nth-child(10) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 10ms;
-    animation-duration: 7s;
-    top: -10%;
-  } 
-  &:nth-child(11) {
     position: relative;
     animation:  linear infinite;
     animation-name: floatDown;
     animation-delay: 2ms;
     animation-duration: 9s;
+    top: -50%;
+  } 
+  &:nth-child(11) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 50ms;
+    animation-duration: 7s;
     top: -10%;
+  } 
+  &:nth-child(12) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 1000ms;
+    animation-duration: 7s;
+    top: -50%;
+  } 
+  &:nth-child(13) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: 2ms;
+    animation-duration: 9s;
+    top: -50%;
   } 
   }
 }
@@ -176,5 +190,14 @@
     top: 110%;
     transform:translateX(-20px) rotate(225deg);
     opacity:0;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
   }
 }

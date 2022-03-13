@@ -26,6 +26,9 @@ header {
         justify-content: space-around;
         text-align: end;
       }
+      .navbar__link > a{
+        color: $color-green;
+      }
     }
     .navbar__hamburger {
       padding-right: 2rem;
