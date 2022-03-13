@@ -1,7 +1,7 @@
 import "./App.css";
-import Routing from "./pages/Routing/Routing";
 import Landing from "./pages/Landing/Landing";
 import { useState } from "react";
+import Main from "./pages/Routing/Main";
 
 const App = () => {
   const [showLanding, setShowLanding] = useState(true);
@@ -16,7 +16,7 @@ const App = () => {
     <body>
       {showLanding && <Landing handleLandingHover={handleLandingHover} />}
       {showMain && 
-        <Routing/>
+        <Main/>
       }
     </body>
   );

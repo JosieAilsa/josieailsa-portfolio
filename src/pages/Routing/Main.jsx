@@ -2,7 +2,7 @@ import Home from "../Home/Home";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
 
-const Routing = () => {
+const Main = () => {
   return (
     <>
         <Home/>
@@ -11,4 +11,4 @@ const Routing = () => {
   );
 };
 
-export default Routing;
+export default Main;

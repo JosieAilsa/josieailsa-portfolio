@@ -19,4 +19,7 @@
   .nav__draw-link {
     size: 2rem;
   }
+  .nav__draw-link > a {
+    color: $color-green;
+  }
 }
