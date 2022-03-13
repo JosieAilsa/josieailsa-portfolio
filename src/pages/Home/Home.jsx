@@ -10,7 +10,7 @@ const Home = () => {
         <section className="hero__text">
           <h1 className="hero__header">Hi, I'm Josie.</h1>
           <h3 className="hero__intro">
-            I'm Bristol-based UI developer and software coach.
+            I'm a Bristol-based UI developer and software coach.
           </h3>
           <a href="#projects" className="hero__button button--hero button">See my projects</a>
         </section>

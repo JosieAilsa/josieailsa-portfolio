@@ -15,6 +15,10 @@
     .hero__image {
       width: 85%;
       padding: 2rem;
+      opacity: 0;
+      animation:3s ease-in-out 0s fadeIn;
+      animation-fill-mode: forwards;
+      animation-duration: 2s;
       @media only screen and (min-width: $tablet-breakpoint) {
         max-width: 65%;
       }
@@ -37,6 +41,9 @@
         font-size: 2.15rem;
         font-weight: 400;
         font-style: italic;
+        opacity: 0;
+        animation:2s ease-in-out 1.5s fadeIn;
+        animation-fill-mode: forwards;
         @media only screen and (min-width: $desktop-breakpoint) {
           font-size: 5rem;
           text-align: left;
@@ -44,10 +51,12 @@
         }
       }
       .hero__intro {
+        opacity: 0;
         font-family: $font-body;
         font-size: 1.25rem;
         font-weight: 500;
-
+        animation:3s ease-in-out 2s fadeIn;
+        animation-fill-mode: forwards;
         @media only screen and (min-width: $desktop-breakpoint) {
           font-size: 2rem;
           text-align: center;
@@ -56,7 +65,9 @@
     }
     
     .hero__button {
+      opacity: 0;
       background-color: $color-pink;
+      animation:5s ease-in-out fadeIn;
       border: 2px solid $color-green-opacity;
       padding: 1rem;
       align-self: center;
@@ -66,6 +77,8 @@
       font-weight: 500;
       border-radius: 2rem;
       margin-top: 2rem;
+      animation:3s ease-in-out 2.5s fadeIn;
+      animation-fill-mode: forwards;
     }
     .hero__button:hover {
       background-color: $color-green;
