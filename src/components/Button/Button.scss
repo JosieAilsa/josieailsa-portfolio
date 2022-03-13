@@ -17,23 +17,3 @@
 .carousel__button--inactive {
   opacity: 50%;
 }
-.carousel__copy-button {
-  background-color: $color-green;
-  border: none;
-  width: 8.5rem;
-  height: 2.5rem;
-  border-radius: 0.5rem;
-  > a {
-    color: $color-pink;
-    text-decoration: none;
-    font-weight: 800;
-  }
-}
-.carousel__copy-button:hover {
-  background-color: $color-pink;
-  transition: 0.25s ease-in-out;
-  > a {
-    color: $color-green;
-    transition: 0.25s ease-in-out;
-  }
-}
