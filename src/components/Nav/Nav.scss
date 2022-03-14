@@ -35,7 +35,7 @@ header {
       padding-right: 2rem;
       height: 4vmin;
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
       @media only screen and (min-width: 1024px) {
         display: none;
       }
