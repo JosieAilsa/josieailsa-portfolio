@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/JosieAilsa/josieailsa-portfolio.git/static/css/main.d26238de.css",
+    "main.css": "/JosieAilsa/josieailsa-portfolio.git/static/css/main.fd215911.css",
     "main.js": "/JosieAilsa/josieailsa-portfolio.git/static/js/main.fb8a0ddf.js",
     "static/js/787.0b8d64f5.chunk.js": "/JosieAilsa/josieailsa-portfolio.git/static/js/787.0b8d64f5.chunk.js",
     "static/media/calculator.png": "/JosieAilsa/josieailsa-portfolio.git/static/media/calculator.0662d0b4c158b8b07e41.png",
@@ -24,12 +24,12 @@
     "static/media/arrow-left.svg": "/JosieAilsa/josieailsa-portfolio.git/static/media/arrow-left.77dd6a4978be79aa1084ad9ea1cdb691.svg",
     "static/media/arrow-right.svg": "/JosieAilsa/josieailsa-portfolio.git/static/media/arrow-right.54823fa876559df4a2363216d9f5fbed.svg",
     "static/media/flowers-05.svg": "/JosieAilsa/josieailsa-portfolio.git/static/media/flowers-05.2646d4681ffbf2c1cffe0db16b7481e5.svg",
-    "main.d26238de.css.map": "/JosieAilsa/josieailsa-portfolio.git/static/css/main.d26238de.css.map",
+    "main.fd215911.css.map": "/JosieAilsa/josieailsa-portfolio.git/static/css/main.fd215911.css.map",
     "main.fb8a0ddf.js.map": "/JosieAilsa/josieailsa-portfolio.git/static/js/main.fb8a0ddf.js.map",
     "787.0b8d64f5.chunk.js.map": "/JosieAilsa/josieailsa-portfolio.git/static/js/787.0b8d64f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d26238de.css",
+    "static/css/main.fd215911.css",
     "static/js/main.fb8a0ddf.js"
   ]
 }
