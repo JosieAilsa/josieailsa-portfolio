@@ -18,6 +18,11 @@ const Landing = ({ handleLandingHover }) => {
         />
         <img
           className="landing__art "
+          src={whitePetals}
+          alt=""
+        />
+        <img
+          className="landing__art "
           src={pinkFlower}
           alt=""
         />

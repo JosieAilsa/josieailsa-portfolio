@@ -5,8 +5,8 @@ const NavDraw = () => {
       <ul className="nav__draw">
         <li className="nav__draw-link"><a href="#home">home</a></li>
         <li className="nav__draw-link"><a href="#projects">projects</a></li>
-        <li className="nav__draw-link"><a href="">skills</a></li>
-        <li className="nav__draw-link"><a href="">contact</a></li>
+        <li className="nav__draw-link"><a href="#projects">skills</a></li>
+        <li className="nav__draw-link"><a href="#projects">contact</a></li>
       </ul>
     </div>
   );

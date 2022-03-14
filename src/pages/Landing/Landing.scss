@@ -139,6 +139,15 @@
     animation-duration: 9s;
     top: -50%;
   } 
+
+  &:nth-child(14) {
+    position: relative;
+    animation:  linear infinite;
+    animation-name: floatDown;
+    animation-delay: random(200)ms;
+    animation-duration: 6s;
+    top: -10%;
+  }
   }
 }
 

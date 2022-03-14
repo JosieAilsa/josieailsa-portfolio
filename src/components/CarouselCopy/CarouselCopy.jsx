@@ -1,5 +1,4 @@
 import "./CarouselCopy.scss";
-import Button from "../Button/Button";
 
 export const CarouselCopy = ({
   id,
