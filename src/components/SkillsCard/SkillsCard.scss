@@ -1,0 +1,25 @@
+@use "../../assets/sass/abstracts/mixin" as *;
+@use "../../assets/sass/abstracts/variables" as *;
+
+
+.card{
+    @include flex-center-row;
+    background-color: $color-green;
+    padding: 1rem;
+    border-radius: 1.25rem 0.25rem 1.25rem 0.25rem;
+    max-width: 30rem;
+    .card__title {
+        font-size: 1.25rem;
+    }
+    .card__copy{
+        color: $color-background;
+    .card__content{
+        color: $color-grey;
+    }
+    }
+    .card__icon{
+        width: 3rem;
+        height: 3rem;
+        margin: 0.5rem;
+    }
+}

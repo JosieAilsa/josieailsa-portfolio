@@ -19,7 +19,7 @@ const Nav = () => {
           <ul className="navbar__links">
             <li className="navbar__link"><a href="#home">home</a></li>
             <li className="navbar__link"><a href="#projects">projects</a></li>
-            <li className="navbar__link">skills</li>
+            <li className="navbar__link"><a href="#skills">skills</a></li>
             <li className="navbar__link">contact</li>
           </ul>
           <img
