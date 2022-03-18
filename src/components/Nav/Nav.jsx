@@ -12,7 +12,6 @@ const Nav = () => {
   };
 
   return (
-    <>
       <header>
         <nav className="navbar">
           <img src={logo} className="navbar__logo" alt="logo" />
@@ -31,7 +30,6 @@ const Nav = () => {
         </nav>
         {drawIsOpen && <NavDraw />}
       </header>
-    </>
   );
 };
 

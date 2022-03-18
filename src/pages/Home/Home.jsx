@@ -1,6 +1,6 @@
 import heroImg from "../../assets/images/landing-img.svg";
 import "./Home.scss";
-import Layout from "../../components/Layout/Layout";
+import scroll from "../../assets/images/icons/carousel-arrow2.svg";
 
 const Home = () => {
   return (
@@ -15,6 +15,10 @@ const Home = () => {
         </section>
         <img className="hero__image" src={heroImg} alt="hero" />
       </section>
+      <article  className="scroll">
+        <img  className="scroll__image"src={scroll} alt="" />
+        <p  className="scroll__text">scroll</p>
+      </article>
     </div>
   );
 };

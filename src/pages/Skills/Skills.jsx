@@ -5,7 +5,7 @@ import backgroundflower from "../../assets/images/flowers/backgroundflower.svg"
 
 const Skills = () => {
 const skillsCardsArrJSX = skillsArr.map(({title,content, icon}) => {
-    return <SkillsCard title={title} content={content} icon={icon}/>
+    return <SkillsCard key={title} title={title} content={content} icon={icon}/>
 })
 
     return (

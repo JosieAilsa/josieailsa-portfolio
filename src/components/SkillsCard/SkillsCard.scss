@@ -3,23 +3,43 @@
 
 
 .card{
-    @include flex-center-row;
     background-color: $color-green;
     padding: 1rem;
     border-radius: 1.25rem 0.25rem 1.25rem 0.25rem;
-    max-width: 30rem;
-    .card__title {
-        font-size: 1.25rem;
-    }
-    .card__copy{
-        color: $color-background;
-    .card__content{
-        color: $color-grey;
-    }
-    }
+    width: 30rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 0.35rem;
     .card__icon{
         width: 3rem;
         height: 3rem;
-        margin: 0.5rem;
+        grid-area: 1/1/3/3;
+        align-self: center;
     }
+  
+    .card__title {
+        color: $color-background;
+        font-size: 1.25rem;
+        grid-area: 1/2/1/6;
+        align-self: center;
+    }
+    .card__button{
+    background-color: transparent;
+    border: none;
+
+    .card__drop-down{
+        width: 1rem;
+        height: 1rem;
+    }
+    .card__drop-down--active{
+        transform: rotate(90deg);
+    }
+}
+    .card__content{
+        color: $color-background;
+        grid-area: 2/2/2/7;
+        color: $color-grey;
+
+    }
+    
 }

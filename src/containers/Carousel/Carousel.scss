@@ -2,10 +2,9 @@
 @use "../../assets/sass/abstracts/variables" as *;
 
 .carousel {
-  grid-area: 3/3/8/11;
-  animation: 10s ease-out 1s fadeIn;
+  grid-area: 3/3/7/11;
   .carousel__image-container {
-    position: relative;
+   position: relative;
    display: flex;
    gap: 0.25rem;
     
@@ -49,11 +48,3 @@
   }
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
