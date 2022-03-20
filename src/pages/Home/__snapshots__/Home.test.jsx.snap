@@ -25,7 +25,7 @@ exports[`The home page 1`] = `
           class="hero__button hero__button--active"
           role="button"
         >
-          See my projects
+          See my carouselData
         </button>
       </section>
       <img

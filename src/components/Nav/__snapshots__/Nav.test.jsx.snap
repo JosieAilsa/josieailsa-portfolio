@@ -17,7 +17,7 @@ exports[`Nav should render 1`] = `
         <li
           class="navbar__link"
         >
-          projects
+          carouselData
         </li>
         <li
           class="navbar__link"

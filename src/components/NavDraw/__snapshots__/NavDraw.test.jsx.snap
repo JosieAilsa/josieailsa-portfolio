@@ -8,7 +8,7 @@ exports[`Nav Draw page should render 1`] = `
     <li
       class="nav__draw-link"
     >
-      projects
+      carouselData
     </li>
     <li
       class="nav__draw-link"

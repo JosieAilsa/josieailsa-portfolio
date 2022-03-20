@@ -15,23 +15,23 @@ icon: html,
 },
 {
     title: "CSS",
-    content:"I love design. Building and creating, accessible, responsive designs is one of the things I love most about front-end development. I use preprocessor SCSS and SASS 7-in-1 architecture in all my projects.",
+    content:"I love design. Building and creating, accessible, responsive designs is one of the things I love most about front-end development. I use preprocessor SCSS and SASS 7-in-1 architecture in all my carouselData.",
     icon: css,
 },
 {
     title: "JavaScript",
-    content: "My favourite programming language. With it, I've started learning and applying best practices and a functional programming approach. I've also tested various projects with Jest and Cypress.",
+    content: "My favourite programming language. With it, I've started learning and applying best practices and a functional programming approach. I've also tested various carouselData with Jest and Cypress.",
     icon: js,
 },
 {
     title: "React",
-    content: "I'm passionate about React, while I've only developed.",
+    content: "It took me a while to get used to, but now I can't get enough of React. I built this portfolio with it! I'm currently doing Kent C Dodd's Epic React course to develop a more advanced understanding.",
     icon: react,
 
 },
 {
     title: "Java",
-    content: "My first back-end and OOP language, I've built three projects using Java - one a REST API with Spring Boot & SQL. Deployed using GCP.",
+    content: "My first back-end and OOP language, I've built three carouselData using Java - one a REST API with Spring Boot & SQL. Deployed using GCP.",
     icon: java,
 },
 {

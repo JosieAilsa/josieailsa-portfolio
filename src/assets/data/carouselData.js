@@ -6,10 +6,10 @@ import api from "../../assets/images/projects/api.jpeg"
 import piglatin from "../images/projects/piglatin.png"
 import java from "../../assets/images/projects/java.png"
 
-export const projects = [
+export const carouselData = [
   {
     id: 1,
-    projectTitile: "Calculator",
+    projectTitle: "Calculator",
     languages: ["HTML", "CSS", "Typescript"],
     description:
       "My first project using TypeScript. End to end tested with cypress",
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     id: 2,
-    projectTitile: "Morsecode Translator",
+    projectTitle: "Morsecode Translator",
     languages: ["HTML", "CSS", "Vanilla JavaScript"],
     description:
       "Morse code translator built with JS, using an OOP approach. Unit tested with Jest",
@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     id: 3,
-    projectTitile: "OAE Event Programme",
+    projectTitle: "OAE Event Programme",
     languages: ["HTML", "CSS", "JavaScript", "React"],
     images: morsecode,
     description:
@@ -40,7 +40,7 @@ export const projects = [
   },
   {
     id: 4,
-    projectTitile: "5x5 Powerlift",
+    projectTitle: "5x5 Powerlift",
     languages: ["HTML", "CSS", "JavaScript", "React"],
     image: powerlift5x5,
     description:
@@ -50,7 +50,7 @@ export const projects = [
   },
   {
     id: 5,
-    projectTitile: "5x5 Powerlift API",
+    projectTitle: "5x5 Powerlift API",
     languages: ["Java", "Spring Boot", "GCP", "SQL"],
     image: api,
     description:
@@ -59,7 +59,7 @@ export const projects = [
   },
   {
     id: 6,
-    projectTitile: "Piglatin Translator",
+    projectTitle: "Piglatin Translator",
     languages: ["JavaScript"],
     image: piglatin,
     description:
@@ -68,7 +68,7 @@ export const projects = [
   },
   {
     id: 7,
-    projectTitile: "Java Snap",
+    projectTitle: "Java Snap",
     languages: ["Java"],
     image: java,
     description:

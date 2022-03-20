@@ -3,7 +3,7 @@
 exports[`Projects page should render 1`] = `
 <div>
   <div
-    class="projects page"
+    class="carouselData page"
   >
     <h1
       class="projects__heading"
