@@ -38,6 +38,9 @@
       @media only screen and (min-width: $desktop-breakpoint) {
         left: 88%;
       }
+      @media only screen and (min-width: $large-desktop-breakpoint) {
+        left: 68%;
+      }
     }
   }
   .carousel__buttons {

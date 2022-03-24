@@ -10,22 +10,9 @@
 }
 
 .skills-container{
-    display: flex;
-    gap: 0.5rem;
+    display: grid;
     grid-area: 3/3/8/11;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
-
-    .skills__col-1, .skills__col-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        gap: 1rem;
-        width: 100%;
-        @media only screen and (min-width:$tablet-breakpoint) {
-            width: 49%;
-        }
-    }
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(4,1fr);
+    gap: 1rem;
 }

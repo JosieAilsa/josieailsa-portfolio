@@ -23,11 +23,15 @@
     }
   }
   .hero {
-    @include flex-center-column;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     width: 100%;
     grid-area: 1/1/8/13;
     @media only screen and (min-width: $desktop-breakpoint) {
       flex-direction: row-reverse;
+      justify-content: center;
     }
     .hero__image {
       width: 85%;
