@@ -1,0 +1,49 @@
+@use "../../assets/sass/abstracts/variables" as *;
+@use "../../assets/sass/layout/layout" as *;
+@use "../../assets/sass/abstracts/mixin" as *;
+@use "../../assets/sass/base/resets" as *;
+
+        .about{
+            grid-area: 2/3/6/11;
+            display: flex;
+            justify-content: space-between;
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+            align-items: center;
+            @media only screen and (min-width: $desktop-breakpoint) {
+            flex-direction: row;
+            }
+            .about__image{
+                // object-fit: contain;
+                // border-radius: 2.25rem 0.25rem 2.25rem 0.25rem;
+                width: 16rem;
+                height: 18rem;        
+                @media only screen and (min-width: $tablet-breakpoint) {
+
+                }
+                @media only screen and (min-width: $desktop-breakpoint) {
+
+                }
+            }
+        }
+
+.contact{
+    grid-area: 7/3/8/11;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .contact__wraper{
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .contact__title{
+
+    }
+
+}
+
+
+    

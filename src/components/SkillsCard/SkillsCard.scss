@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: start;
+    min-width: 19rem;
     .card__wrapper{
         display: flex;
         justify-content: space-between;
@@ -34,6 +34,7 @@
         flex-grow: 1;
         font-size: 1rem;
         align-self: center;
+        font-family: $font-body;
         margin-left: 1rem;
         @media only screen and (min-width:$desktop-breakpoint) {
         font-size: 1.25rem;
