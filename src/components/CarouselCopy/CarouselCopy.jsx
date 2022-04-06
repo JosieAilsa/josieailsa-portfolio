@@ -9,7 +9,7 @@ export const CarouselCopy = ({
 }) => {
   return (
     <article className="carousel__copy">
-      <h3 className="carousel__header">{`${id}. ${title}`}</h3>
+      <h4 className="carousel__header">{`${id}. ${title}`}</h4>
       <p className="carousel__text">{description}</p>
       <div className="carousel__code-container">
       <a className="carousel__copy-button" href={codebase}>See my code</a>

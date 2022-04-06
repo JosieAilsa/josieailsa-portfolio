@@ -3,14 +3,13 @@ import Button from "../../components/Button/Button";
 import arrowLeft from "../../assets/images/icons/arrow-left.svg";
 import arrowRight from "../../assets/images/icons/arrow-right.svg";
 import "./Carousel.scss";
-import { projects } from "../../assets/data/data";
 import { useState } from "react";
 import CarouselImage from "../../components/CarouselImage/CarouselImage";
 import pinkFlower from "../../assets/images/flowers/flowers-01.svg";
 import orangePetals from "../../assets/images/flowers/flowers-07.svg";
 import greenFlower from "../../assets/images/flowers/flowers-09.svg"
 
-const Carousel = () => {
+const Carousel = ({carouselData}) => {
   //Set the carousel to start and re-render when items change
   const [currentProjectShown, setCurrentProjectShown] = useState(0);
 
@@ -27,21 +26,21 @@ const Carousel = () => {
       //Get next item
       const nextProject = currentProjectShown + 1;
       //If this is last item add inactive class to right btn
-      if (nextProject === projects.length - 1) {
+      if (nextProject === carouselData.length - 1) {
         rightButton.classList.add("carousel__button--inactive");
       }
       //If it is the last project return, doing nothing
-      if (currentProjectShown === projects.length - 1) {
+      if (currentProjectShown === carouselData.length - 1) {
         return;
       }
-      //Else increment the projects
+      //Else increment the carouselData
       setCurrentProjectShown(nextProject);
       return;
     }
     //If left click, get next project
     const nextProject = currentProjectShown - 1;
     //If current project shown is last, remove inactive of right btn
-    if (currentProjectShown === projects.length - 1) {
+    if (currentProjectShown === carouselData.length - 1) {
       rightButton.classList.toggle("carousel__button--inactive");
     }
     //If at start on nxt project, add the inactive class
@@ -52,7 +51,7 @@ const Carousel = () => {
     if (currentProjectShown === 0) {
       return;
     }
-    //Else increment the projects
+    //Else increment the carouselData
     setCurrentProjectShown(nextProject);
   };
   //Find index of items to be shown either of side item in focus
@@ -75,7 +74,7 @@ const Carousel = () => {
   //Destructure to get index of left and right images
   const [two, three, four] = findNextCarouselNum(
     currentProjectShown,
-    projects.length
+    carouselData.length
   );
 
   return (
@@ -85,24 +84,24 @@ const Carousel = () => {
         <img className="carousel__flower carousel__flower--pink" src={pinkFlower} alt="" />
         <img className="carousel__flower carousel__flower--green" src={greenFlower} alt="" />
         <CarouselImage
-          image={projects[currentProjectShown].image}
+          image={carouselData[currentProjectShown].image}
           item={"main"}
-          title={projects[currentProjectShown].projectTitle}
+          title={carouselData[currentProjectShown].projectTitle}
         />
         <CarouselImage
-          image={projects[two].image}
+          image={carouselData[two].image}
           item={"two"}
-          title={projects[currentProjectShown].projectTitle}
+          title={carouselData[currentProjectShown].projectTitle}
         />
         <CarouselImage
-          image={projects[three].image}
+          image={carouselData[three].image}
           item={"three"}
-          title={projects[currentProjectShown].projectTitle}
+          title={carouselData[currentProjectShown].projectTitle}
         />
         <CarouselImage
-          image={projects[four].image}
+          image={carouselData[four].image}
           item={"four"}
-          title={projects[currentProjectShown].projectTitle}
+          title={carouselData[currentProjectShown].projectTitle}
         />
       </div>
       <div className="carousel__buttons">
@@ -132,11 +131,11 @@ const Carousel = () => {
         />
       </div>
       <CarouselCopy
-        id={projects[currentProjectShown].id}
-        title={projects[currentProjectShown].projectTitile}
-        description={projects[currentProjectShown].description}
-        codebase={projects[currentProjectShown].codebase}
-        liveSite={projects[currentProjectShown].liveSite}
+        id={carouselData[currentProjectShown].id}
+        title={carouselData[currentProjectShown].projectTitle}
+        description={carouselData[currentProjectShown].description}
+        codebase={carouselData[currentProjectShown].codebase}
+        liveSite={carouselData[currentProjectShown].liveSite}
       />
     </section>
   );

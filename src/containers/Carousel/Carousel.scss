@@ -2,10 +2,9 @@
 @use "../../assets/sass/abstracts/variables" as *;
 
 .carousel {
-  grid-area: 3/3/8/11;
-  animation: 10s ease-out 1s fadeIn;
+  grid-area: 3/3/7/11;
   .carousel__image-container {
-    position: relative;
+   position: relative;
    display: flex;
    gap: 0.25rem;
     
@@ -16,30 +15,31 @@
     
     .carousel__flower--pink {
       width: 7rem;
-      width: 7rem;
-      left: -19%;
-      top: 42%;
-      @media only screen and (min-width: $desktop-breakpoint) {
-        left: -4%;
-      }
-      //    left: -9%;
+      left: -3rem;
+      top: 6rem;
     }
     .carousel__flower--petals {
       width: 3rem;
-      left: -12%;
-      top: 4%;
+      left: -2rem;
+      top: 1rem;
       transform: rotate(-20deg);
-      @media only screen and (min-width: $desktop-breakpoint) {
-        left: -3%;
-      }
     }
     .carousel__flower--green {
       width: 6rem;
       height: 6rem;
       left: 66%;
       top: 75%;
+      @media only screen and (min-width: 420px) {
+        left: 37%;
+      }
+      @media only screen and (min-width: $tablet-breakpoint) {
+        left: 26%;
+      }
       @media only screen and (min-width: $desktop-breakpoint) {
         left: 88%;
+      }
+      @media only screen and (min-width: $large-desktop-breakpoint) {
+        left: 68%;
       }
     }
   }
@@ -51,11 +51,3 @@
   }
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity: 1;
-  }
-}

@@ -1,0 +1,69 @@
+@use "../../assets/sass/abstracts/variables" as *;
+@use "../../assets/sass/layout/layout" as *;
+@use "../../assets/sass/abstracts/mixin" as *;
+@use "../../assets/sass/base/resets" as *;
+
+        .about{
+            grid-area: 2/3/8/11;
+            @media only screen and (min-width: $desktop-breakpoint){
+            // grid-area: 1/3/8/11;
+            grid-area: 2/3/7/11;
+            }
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-direction: column;
+            align-items: flex-start;
+            @media only screen and (min-width: $desktop-breakpoint) {
+            flex-direction: row;
+            }
+            .about__text{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                .about__button{
+                    width: 12rem;
+                    text-align: center;
+                }
+
+            }
+            .about__image{
+                // object-fit: contain;
+                // border-radius: 2.25rem 0.25rem 2.25rem 0.25rem;
+                width: 16rem;
+                height: 18rem;        
+                @media only screen and (min-width: $tablet-breakpoint) {
+
+                }
+                @media only screen and (min-width: $desktop-breakpoint) {
+
+                }
+            }
+        }
+
+.contact{
+    grid-area: 8/1/8/13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:$color-green-opacity;
+    @media only screen and (min-width: 1200px) {
+        grid-area: 7/1/9/13;
+    }
+    .contact__icons{
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+    .contact__text{
+        color: $color-background;
+        padding: 1rem;
+    }
+
+}
+
+
+    

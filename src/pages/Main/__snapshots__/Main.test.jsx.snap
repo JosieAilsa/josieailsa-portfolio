@@ -17,7 +17,7 @@ exports[`Main page should render 1`] = `
         <li
           class="navbar__link"
         >
-          projects
+          carouselData
         </li>
         <li
           class="navbar__link"
@@ -60,7 +60,7 @@ exports[`Main page should render 1`] = `
           class="hero__button hero__button--active"
           role="button"
         >
-          See my projects
+          See my carouselData
         </button>
       </section>
       <img
@@ -71,7 +71,7 @@ exports[`Main page should render 1`] = `
     </section>
   </div>
   <div
-    class="projects page"
+    class="carouselData page"
   >
     <h1
       class="projects__heading"

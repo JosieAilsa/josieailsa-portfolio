@@ -12,14 +12,13 @@ const Nav = () => {
   };
 
   return (
-    <>
       <header>
         <nav className="navbar">
           <img src={logo} className="navbar__logo" alt="logo" />
           <ul className="navbar__links">
             <li className="navbar__link"><a href="#home">home</a></li>
             <li className="navbar__link"><a href="#projects">projects</a></li>
-            <li className="navbar__link">skills</li>
+            <li className="navbar__link"><a href="#skills">skills</a></li>
             <li className="navbar__link">contact</li>
           </ul>
           <img
@@ -31,7 +30,6 @@ const Nav = () => {
         </nav>
         {drawIsOpen && <NavDraw />}
       </header>
-    </>
   );
 };
 
