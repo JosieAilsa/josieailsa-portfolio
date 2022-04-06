@@ -1,18 +1,16 @@
 import SkillsCard from "../../components/SkillsCard/SkillsCard";
 import {skillsArr} from "../../assets/data/skills" 
 import "./Skills.scss"
-import backgroundflower from "../../assets/images/flowers/backgroundflower.svg"
-
 
 const Skills = () => {
-    const skillsCardsArrJSX1 = skillsArr.map(({title,content, icon},i) => {
-        if (i > 3) return;
-        return <SkillsCard  key={title} title={title} content={content} icon={icon}/>
-    })
-    const skillsCardsArrJSX2 = skillsArr.map(({title,content, icon},i) => {
-        if (i < 4) return;
-        return <SkillsCard  key={title} title={title} content={content} icon={icon}/>
-    })
+    const skillsCardsArrJSX1 =[]
+    const skillsCardsArrJSX2 = []
+    for(let i = 0; i < skillsArr.length; i++){
+        let currentSkill = skillsArr[i];
+        i > 3 ?
+        skillsCardsArrJSX1.push(<SkillsCard  key={currentSkill.title} title={currentSkill.title} content={currentSkill.content} icon={currentSkill.icon}/>)
+        :skillsCardsArrJSX2.push(<SkillsCard  key={currentSkill.title} title={currentSkill.title} content={currentSkill.content} icon={currentSkill.icon}/>)
+    }
     
         return (
                 <div id="skills"className="skills page" >

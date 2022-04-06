@@ -35,7 +35,7 @@
     position: relative;
     animation:  linear infinite;
     animation-name: floatDown;
-    animation-delay: random(200)ms;
+    animation-delay: 200ms;
     animation-duration: 10s;
     top: -10%;
   }
@@ -144,7 +144,7 @@
     position: relative;
     animation:  linear infinite;
     animation-name: floatDown;
-    animation-delay: random(200)ms;
+    animation-delay: 200ms;
     animation-duration: 6s;
     top: -10%;
   }
@@ -153,7 +153,6 @@
 
   .landing-hero {
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: space-between;
     z-index: 2;
