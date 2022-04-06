@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as *;
+    .button--primary {
+        background-color: $color-pink;
+        border: 2px solid $color-green-opacity;
+        padding: 1rem;
+        font-size: 1rem;
+        color: $color-green;
+        font-family: $font-body;
+        font-weight: 500;
+        border-radius: 2rem;
+      }
+      .button--primary:hover {
+        background-color: $color-green;
+        color: $color-pink;
+        transition: 0.25s ease-in-out;
+      }

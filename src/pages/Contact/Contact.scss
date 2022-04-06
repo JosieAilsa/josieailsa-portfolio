@@ -4,15 +4,29 @@
 @use "../../assets/sass/base/resets" as *;
 
         .about{
-            grid-area: 2/3/6/11;
+            grid-area: 2/3/8/11;
+            @media only screen and (min-width: $desktop-breakpoint){
+            // grid-area: 1/3/8/11;
+            grid-area: 2/3/7/11;
+            }
             display: flex;
             justify-content: space-between;
-            display: flex;
             gap: 1rem;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             @media only screen and (min-width: $desktop-breakpoint) {
             flex-direction: row;
+            }
+            .about__text{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                .about__button{
+                    width: 12rem;
+                    text-align: center;
+                }
+
             }
             .about__image{
                 // object-fit: contain;
@@ -29,18 +43,24 @@
         }
 
 .contact{
-    grid-area: 7/3/8/11;
+    grid-area: 8/1/8/13;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    .contact__wraper{
+    background-color:$color-green-opacity;
+    @media only screen and (min-width: 1200px) {
+        grid-area: 7/1/9/13;
+    }
+    .contact__icons{
         width: 75%;
         display: flex;
         justify-content: space-around;
+        padding: 1rem;
     }
-    .contact__title{
-
+    .contact__text{
+        color: $color-background;
+        padding: 1rem;
     }
 
 }

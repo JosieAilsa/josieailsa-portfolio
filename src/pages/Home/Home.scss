@@ -2,6 +2,7 @@
 @use "../../assets/sass/layout/layout" as *;
 @use "../../assets/sass/abstracts/mixin" as *;
 @use "../../assets/sass/base/resets" as *;
+@use "../../assets/sass/components/button" as *;
 
 .home {
   .scroll{
@@ -71,27 +72,13 @@
         animation:3s ease-in-out 2s fadeIn;
         animation-fill-mode: forwards;
       }
-    }
-    
-    .hero__button {
-      background-color: $color-pink;
-      border: 2px solid $color-green-opacity;
-      padding: 1rem;
-      align-self: center;
-      font-size: 1rem;
-      color: $color-green;
-      font-family: $font-body;
-      font-weight: 500;
-      border-radius: 2rem;
-      //Animation 
-      opacity: 0;
-      animation:3s ease-in-out 2.5s fadeIn;
-      animation-fill-mode: forwards;
-    }
-    .hero__button:hover {
-      background-color: $color-green;
-      color: $color-pink;
-      transition: 0.25s ease-in-out;
+      .hero__button{
+           //Animation 
+           opacity: 0;
+           animation:3s ease-in-out 2.5s fadeIn;
+           animation-fill-mode: forwards;
+           align-self: center;
+      }
     }
   }
 }
