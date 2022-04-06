@@ -1,3 +1,2 @@
-# :rosette: :cherry_blossom: JN Portfolio :cherry_blossom: :rosette:
-
-- Revised portfolio built using React
+# :rosette: :cherry_blossom: My Personal Portfolio :cherry_blossom: :rosette:
+- Built with React 
