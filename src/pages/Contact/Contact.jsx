@@ -24,6 +24,8 @@ const Contact = () => {
                     After completing a 12-week bootcamp I started leading a 3-hour lesson each week, on everything from basic flexbox to React testing library!
                     The role presented a really unique opportunity for me to combine coding with what I loved most about comms, breaking-down complex technical topics into accessible, everyday English.
                     <br/>
+                    <br/>
+                    See my CV for more info on all my experience to-date. 
                     </p>
                     <a href="#projects" className="button--primary about__button">Download my CV</a>
                 </div>

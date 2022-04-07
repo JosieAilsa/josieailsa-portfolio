@@ -4,7 +4,8 @@
 @use "../../assets/sass/base/resets" as *;
 @use "../../assets/sass/components/button" as *;
 
-.home {
+#home {
+  min-height: 90vh;
   .scroll{
     text-align: center;
     grid-area: 8/6/8/8;

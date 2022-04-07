@@ -3,11 +3,9 @@
 @use "../../assets/sass/base/typography" as *;
 
 .skills{
-    background-image: url("../../assets/images/flowers/backgroundflower.svg");
-    background-position: 104% -28%;
-    background-repeat: no-repeat;
-    background-size: 23rem 50rem;
-}
+    background-image:url("../../assets/images/semi-circle.svg");
+    background-size: cover;
+    
 
 .skills-container{
     display: flex;
@@ -27,4 +25,5 @@
             width: 49%;
         }
     }
+}
 }
