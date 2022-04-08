@@ -5,7 +5,10 @@
 @use "../../assets/sass/components/button" as *;
 
 #home {
-  min-height: 90vh;
+  min-height: 100vh;
+  @media only screen and (min-width: $tablet-breakpoint){
+    min-height: 90vh;
+  }
   .scroll{
     text-align: center;
     grid-area: 8/6/8/8;

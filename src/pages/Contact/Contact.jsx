@@ -7,7 +7,7 @@ import "./Contact.scss"
 const Contact = () => {
     return (
     <div id="contact"className="page">
-        <h3 className=" page__heading">Contact</h3>
+        <h3 className="contact__heading page__heading">Contact</h3>
             <div className="about" >
                 <div class="about__text">
                     <p className="about__copy">I was first introduced to coding when, working with a digital agency, I launched and latterly managed a website, as part of my day-to-day job in corporate communications. 

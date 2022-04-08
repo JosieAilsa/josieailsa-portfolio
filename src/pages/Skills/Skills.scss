@@ -3,9 +3,15 @@
 @use "../../assets/sass/base/typography" as *;
 
 .skills{
-    background-image:url("../../assets/images/semi-circle.svg");
-    background-size: cover;
-    
+    background-image:url("../../assets/images/wave.svg");
+    background-size: 160% 60%;
+    background-repeat: no-repeat;
+    // background-size: cover;
+    @media only screen and (min-width: $tablet-breakpoint){
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
 
 .skills-container{
     display: flex;

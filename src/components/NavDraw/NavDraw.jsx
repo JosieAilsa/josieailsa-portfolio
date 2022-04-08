@@ -4,9 +4,9 @@ const NavDraw = () => {
     <div className="nav__draw-wrap">
       <ul className="nav__draw">
         <li className="nav__draw-link"><a href="#home">home</a></li>
-        <li className="nav__draw-link"><a href="#carouselData">carouselData</a></li>
-        <li className="nav__draw-link"><a href="#carouselData">skills</a></li>
-        <li className="nav__draw-link"><a href="#carouselData">contact</a></li>
+        <li className="nav__draw-link"><a href="#projects">projects</a></li>
+        <li className="nav__draw-link"><a href="#skills">skills</a></li>
+        <li className="nav__draw-link"><a href="#contact">contact</a></li>
       </ul>
     </div>
   );

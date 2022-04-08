@@ -7,14 +7,14 @@ const Skills = () => {
     const skillsCardsArrJSX2 = []
     for(let i = 0; i < skillsArr.length; i++){
         let currentSkill = skillsArr[i];
-        i > 3 ?
+        i <= 3 ?
         skillsCardsArrJSX1.push(<SkillsCard  key={currentSkill.title} title={currentSkill.title} content={currentSkill.content} icon={currentSkill.icon}/>)
         :skillsCardsArrJSX2.push(<SkillsCard  key={currentSkill.title} title={currentSkill.title} content={currentSkill.content} icon={currentSkill.icon}/>)
     }
     
         return (
                 <div id="skills"className="skills page" >
-                    <h3 className="page__heading">Skills</h3>
+                    <h3 className="page__heading skills__title">Skills</h3>
                     <div className="skills-container">
                     <div  className="skills__col-1">
                         {skillsCardsArrJSX1}

@@ -5,6 +5,10 @@
 
 #projects{
     background-image:url("../../assets/images/semi-circle.svg");
-    background-size: cover;
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+    @media only screen and (min-width: $tablet-breakpoint){
+        background-size: cover; 
+    }
     
 }
