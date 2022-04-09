@@ -1,7 +1,6 @@
 import { useState } from "react";
 import hamburger from "../../assets/images/icons/hamburger.svg";
 import logo from "../../assets/images/icons/jnlogo-02.svg";
-import NavDraw from "../NavDraw/NavDraw";
 import NavLinks from "../NavLinks/NavLinks";
 import "./Nav.scss";
 
