@@ -6,16 +6,13 @@
 #contact{
     .contact__heading{
         grid-area: 1/3/2/10;
-        @media only screen and (min-width:$desktop-breakpoint){
-            grid-area:2/3/2/10;
-        }
     }
 }
         .about{
             grid-area: 2/3/8/11;
             @media only screen and (min-width: $desktop-breakpoint){
             // grid-area: 1/3/8/11;
-            grid-area: 3/3/7/11;
+            grid-area: 2/3/6/11;
             }
             display: flex;
             justify-content: space-between;
