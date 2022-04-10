@@ -1,6 +1,7 @@
 import heroImg from "../../assets/images/landing-img.svg";
 import "./Home.scss";
 import scroll from "../../assets/images/icons/carousel-arrow2.svg";
+import Button from "../../components/Button/Button";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
           <h2 className="hero__intro">
             I'm a Bristol-based UI developer and software coach.
           </h2>
-          <a href="#projects" className="hero__button button--primary button">See my projects</a>
+          <Button classNames={"hero__button button--primary button"} content={<a href="#projects">See my projects</a>}/>
         </section>
         <img className="hero__image" src={heroImg} alt="hero" />
       </section>

@@ -10,7 +10,7 @@ import writing from "../images/skills/writing.svg";
 export const skillsArr = [
 {
 title: "HTML 5",
-content:"Demonstrated experience creating semantic, clean HTML utilising BEM. Advocate accessible HTML to create inclusive user experience.",
+content:"Demonstrated experience creating semantic, clean HTML utilising BEM. Advocate for accessible HTML that creates an inclusive user experience.",
 icon: html,
 },
 {
@@ -20,7 +20,7 @@ icon: html,
 },
 {
     title: "JavaScript",
-    content: "I started learning javascript 18 months ago. I'm now helping others on that same journey in my current role.",
+    content: "I started learning javascript 18-months ago. Now I'm helping others on that journey too, teaching students and coaching on everything from basic functions, to API requests and unit testing",
     icon: js,
 },
 {
@@ -31,22 +31,22 @@ icon: html,
 },
 {
     title: "Java",
-    content: "My first back-end and OOP language, I've built three carouselData using Java - one a REST API with Spring Boot & SQL. Deployed using GCP.",
+    content: "My first back-end and OOP language, I've built three projects using Java - including a REST API with Spring Boot & SQL.",
     icon: java,
 },
 {
     title: "Communications",
-    content: "As an ex-communications professional, and now software coach, I love the challenge of explaining complex topics in plain english.",
+    content: "As an ex-communications professional, and now software coach, I revel in the challenge of breaking-down complex topics in simple English.",
     icon: comms,
 },
 {
     title: "Content writing",
-    content: "Managing a FTSE 100's website, I wrote everything from webpages to videos, infographics and long-form technical content!",
+    content: "After spending 3-years managing a FTSE 100 website, I've drafted everything from webpages to videos, infographics and long-form technical content!",
     icon: writing,
 },
 {
     title: "Stakeholder Management",
-    content: "I've had to manage everyone from lawyers to PhD scientists, product designers and marketing directors to create and release content.",
+    content: "Throughout my career, I worked with a broad range of stakeholders from other devs, to lawyers, PhD scientists and marketeers to create and deliver content.",
     icon: manage,
 },
 

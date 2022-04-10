@@ -31,21 +31,6 @@
     .carousel__code-label {
       font-size: 0.75rem;
     }
-    .carousel__copy-button {
-      text-align: center;
-      background-color: $color-green;
-      width: 8.5rem;
-      height: 2.5rem;
-      border-radius: 0.5rem;
-      color: $color-pink;
-      font-weight: 800;
-      @include flex-center-column;
-      }
-    }
-    .carousel__copy-button:hover {
-      background-color: $color-pink;
-      transition: 0.25s ease-in-out;
-      color: $color-green;
-    }
+  }
   }
 

@@ -1,13 +1,35 @@
 @use "../../assets/sass/abstracts/variables" as *;
 @use "../../assets/sass/abstracts/mixin" as *;
 
-
+button{
+  border: none;
+}
+.button--primary {
+  background-color: $color-pink;
+  border: 2px solid $color-green-opacity;
+  padding: 1rem;
+  font-size: 1rem;
+  color: $color-green;
+  font-family: $font-body;
+  font-weight: 500;
+  border-radius: 2rem;
+  a{
+    color: $color-green;
+  }
+}
+.button--primary:hover {
+  background-color: $color-green;
+  color: $color-pink;
+  transition: 0.25s ease-in-out;
+  a{
+    color: $color-pink;
+  }
+}
 .carousel__button {
   width: 2rem;
   height: 2rem;
   border-radius: 0.25rem;
   @include flex-center-column;
-  border: none;
   background-color: $color-pink;
   .carousel__button-image {
     padding: 0.5rem;
@@ -15,4 +37,27 @@
 }
 .carousel__button--inactive {
   opacity: 50%;
+}
+
+.button--secondary {
+  text-align: center;
+  background-color: $color-green;
+  width: 8.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  color: $color-pink;
+  font-weight: 800;
+  @include flex-center-column;
+  }
+  a {
+    color: $color-pink;
+  }
+
+.button--secondary:hover {
+  background-color: $color-pink;
+  transition: 0.25s ease-in-out;
+  color: $color-green;
+  a {
+    color: $color-green;
+  }
 }

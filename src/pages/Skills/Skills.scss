@@ -20,6 +20,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    @media only screen and (min-width:$tablet-breakpoint){
+        grid-area: 3/2/8/12;
+    }
+    @media only screen and (min-width:$desktop-breakpoint){
+        grid-area: 3/3/8/11; 
+    }
 
 
     .skills__col-1, .skills__col-2 {
