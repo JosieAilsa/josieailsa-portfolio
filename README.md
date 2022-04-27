@@ -1,5 +1,5 @@
 # :rosette: :cherry_blossom: My Personal Portfolio :cherry_blossom: :rosette:
-- My own personal portfolio built to showcase my personal 
+- My own personal portfolio built to showcase my dev projects 
 - Designed with Adobe XD 
 - Built with React 
 
