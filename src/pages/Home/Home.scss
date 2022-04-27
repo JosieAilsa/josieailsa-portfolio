@@ -49,15 +49,19 @@
         max-width: 65%;
       }
       @media only screen and (min-width: $desktop-breakpoint) {
-        max-width: 35%;
+        max-width: 30%;
       }
     }
     .hero__text {
-      color: $color-green;
-      @include flex-center-column;
-      width: 70%;
+      align-items: center;
+      color: #3a5751;
+      display: flex;
+      flex-direction: column;
       gap: 2rem;
+      justify-content: flex-end;
       text-align: center;
+      width: 70%;
+      flex-grow: 2;
       @media only screen and (min-width: $desktop-breakpoint) {
         width: 50%;
         padding: 3rem;

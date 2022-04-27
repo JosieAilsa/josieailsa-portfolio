@@ -8,74 +8,29 @@ import whitePetals from "../../assets/images/flowers/flowers-06.svg";
 import orangePetals from "../../assets/images/flowers/flowers-07.svg";
 import Button from "../../components/Button/Button";
 
-const Landing = ({ handleLandingHover }) => {
+const Landing = ({ handleLandingClick }) => {
   return (
     <main class="landing" id="landing">
       <div className="landing__artwork">
-        <img
-          className="landing__art "
-          src={greenLeaf}
-          alt=""
-        />
-        <img
-          className="landing__art "
-          src={whitePetals}
-          alt=""
-        />
-        <img
-          className="landing__art "
-          src={pinkFlower}
-          alt=""
-        />
-        <img
-          className="landing__art "
-          src={orangeFlower}
-          alt=""
-        />
-        <img
-          className="landing__art "
-          src={greenLeaf}
-          alt=""
-        />
-        <img
-          className="landing__art "
-          src={pinkFlower}
-          alt=""
-        />
-        <img
-          className="landing__art "
-          src={whiteFlower}
-          alt=""
-        />
-        <img
-          className="landing__art "
-          src={orangePetals}
-          alt=""
-        />
-         <img
-          className="landing__art "
-          src={greenLeaf}
-          alt=""
-        />
-         <img
-          className="landing__art "
-          src={whiteFlower}
-          alt=""
-        />
-          <img
-          className="landing__art "
-          src={orangePetals}
-          alt=""
-        />
-         <img
-          className="landing__art "
-          src={pinkFlower}
-          alt=""
-        />
+        <img className="landing__art " src={greenLeaf} alt="" />
+        <img className="landing__art " src={whitePetals} alt="" />
+        <img className="landing__art " src={pinkFlower} alt="" />
+        <img className="landing__art " src={orangeFlower} alt="" />
+        <img className="landing__art " src={greenLeaf} alt="" />
+        <img className="landing__art " src={pinkFlower} alt="" />
+        <img className="landing__art " src={whiteFlower} alt="" />
+        <img className="landing__art " src={orangePetals} alt="" />
+        <img className="landing__art " src={greenLeaf} alt="" />
+        <img className="landing__art " src={whiteFlower} alt="" />
+        <img className="landing__art " src={orangePetals} alt="" />
+        <img className="landing__art " src={pinkFlower} alt="" />
       </div>
       <section className="landing-hero">
         <img src={logo} alt="jnlogo" srcset="" className="landing-hero__logo" />
-        <Button classNames ="landing__button button--primary" onClick={handleLandingHover} content={"Enter portfolio"}
+        <Button
+          classNames="landing__button button--primary"
+          onClick={handleLandingClick}
+          content={"Enter portfolio"}
         />
       </section>
     </main>

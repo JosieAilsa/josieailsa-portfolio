@@ -7,17 +7,15 @@ const App = () => {
   const [showLanding, setShowLanding] = useState(true);
   const [showMain, setShowMain] = useState(false);
 
-  const handleLandingHover = () => {
+  const handleLandingClick = () => {
     setShowLanding(false);
     setShowMain(true);
   };
 
   return (
     <body>
-      {showLanding && <Landing handleLandingHover={handleLandingHover} />}
-      {showMain && 
-        <Main/>
-      }
+      {showLanding && <Landing handleLandingClick={handleLandingClick} />}
+      {showMain && <Main />}
     </body>
   );
 };
