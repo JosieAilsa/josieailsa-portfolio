@@ -12,13 +12,16 @@ const Home = () => {
           <h2 className="hero__intro">
             I'm a Bristol-based UI developer and software coach.
           </h2>
-          <Button classNames={"hero__button button--primary button"} content={<a href="#projects">See my projects</a>}/>
+          <Button
+            classNames={"hero__button button--primary button"}
+            content={<a href="#projects">See my projects</a>}
+          />
         </section>
         <img className="hero__image" src={heroImg} alt="hero" />
       </section>
-      <article  className="scroll">
-        <img  className="scroll__image"src={scroll} alt="" />
-        <p  className="scroll__text">scroll</p>
+      <article className="scroll">
+        <img className="scroll__image" src={scroll} alt="" />
+        <p className="scroll__text">scroll</p>
       </article>
     </div>
   );

@@ -4,15 +4,15 @@
 .carousel {
   grid-area: 3/3/7/11;
   .carousel__image-container {
-   position: relative;
-   display: flex;
-   gap: 0.25rem;
-    
-    .carousel__flower{
+    position: relative;
+    display: flex;
+    gap: 0.25rem;
+
+    .carousel__flower {
       position: absolute;
       z-index: 1;
     }
-    
+
     .carousel__flower--pink {
       width: 7rem;
       left: -3rem;
@@ -50,4 +50,3 @@
     margin: 1rem 0rem;
   }
 }
-

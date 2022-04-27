@@ -12,23 +12,30 @@ const Nav = () => {
   };
 
   return (
-      <header>
-        <nav className="navbar">
-          <img src={logo} className="navbar__logo" alt="logo" />
-          <NavLinks linksWrapperClass={"navbar__links"} linksClass={"navbar__link"}/>
-          <img
-            onClick={handleClick}
-            src={hamburger}
-            className="navbar__hamburger"
-            alt="nav-menu"
-          />
-        </nav>
-        {/* {drawIsOpen && <NavDraw />} */}
-        {drawIsOpen && 
+    <header>
+      <nav className="navbar">
+        <img src={logo} className="navbar__logo" alt="logo" />
+        <NavLinks
+          linksWrapperClass={"navbar__links"}
+          linksClass={"navbar__link"}
+        />
+        <img
+          onClick={handleClick}
+          src={hamburger}
+          className="navbar__hamburger"
+          alt="nav-menu"
+        />
+      </nav>
+      {/* {drawIsOpen && <NavDraw />} */}
+      {drawIsOpen && (
         <div className="nav__draw-wrap">
-          <NavLinks linksWrapperClass={"nav__draw"} linksClass={"nav__draw-link"}/>
-        </div>}
-      </header>
+          <NavLinks
+            linksWrapperClass={"nav__draw"}
+            linksClass={"nav__draw-link"}
+          />
+        </div>
+      )}
+    </header>
   );
 };
 

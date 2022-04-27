@@ -7,9 +7,9 @@ import { useState } from "react";
 import CarouselImage from "../../components/CarouselImage/CarouselImage";
 import pinkFlower from "../../assets/images/flowers/flowers-01.svg";
 import orangePetals from "../../assets/images/flowers/flowers-07.svg";
-import greenFlower from "../../assets/images/flowers/flowers-09.svg"
+import greenFlower from "../../assets/images/flowers/flowers-09.svg";
 
-const Carousel = ({carouselData}) => {
+const Carousel = ({ carouselData }) => {
   //Set the carousel to start and re-render when items change
   const [currentProjectShown, setCurrentProjectShown] = useState(0);
 
@@ -80,9 +80,21 @@ const Carousel = ({carouselData}) => {
   return (
     <section className="carousel">
       <div className="carousel__image-container">
-        <img className="carousel__flower carousel__flower--petals" src={orangePetals} alt="" />
-        <img className="carousel__flower carousel__flower--pink" src={pinkFlower} alt="" />
-        <img className="carousel__flower carousel__flower--green" src={greenFlower} alt="" />
+        <img
+          className="carousel__flower carousel__flower--petals"
+          src={orangePetals}
+          alt=""
+        />
+        <img
+          className="carousel__flower carousel__flower--pink"
+          src={pinkFlower}
+          alt=""
+        />
+        <img
+          className="carousel__flower carousel__flower--green"
+          src={greenFlower}
+          alt=""
+        />
         <CarouselImage
           image={carouselData[currentProjectShown].image}
           item={"main"}

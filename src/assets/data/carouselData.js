@@ -1,10 +1,10 @@
 import powerlift5x5 from "../images/projects/powerlift5x5.png";
 import morsecode from "../images/projects/morsecodetranslator.png";
 import calculator from "../images/projects/calculator.png";
-import oae from "../../assets/images/projects/oae.png"
-import api from "../../assets/images/projects/api.jpeg"
-import piglatin from "../images/projects/piglatin.png"
-import java from "../../assets/images/projects/java.png"
+import oae from "../../assets/images/projects/oae.png";
+import api from "../../assets/images/projects/api.jpeg";
+import piglatin from "../images/projects/piglatin.png";
+import java from "../../assets/images/projects/java.png";
 
 export const carouselData = [
   {

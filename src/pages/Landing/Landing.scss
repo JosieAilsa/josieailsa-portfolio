@@ -10,7 +10,6 @@
   justify-content: center;
   overflow: hidden;
 
-
   .landing__artwork {
     justify-content: space-between;
     width: 100vw;
@@ -24,132 +23,131 @@
     .landing__art {
       z-index: 1;
       height: 5rem;
-      width: 5rem;    
-      @media only screen and (min-width: $tablet-breakpoint ){
+      width: 5rem;
+      @media only screen and (min-width: $tablet-breakpoint) {
         height: 10vmin;
         width: 10vmin;
       }
 
+      &:nth-child(1) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 200ms;
+        animation-duration: 10s;
+        top: -10%;
+      }
+      &:nth-child(2) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 1000ms;
+        animation-duration: 15s;
+        top: -10%;
+      }
+      &:nth-child(3) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 0ms;
+        animation-duration: 9s;
+        top: -10%;
+      }
+      &:nth-child(4) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 500ms;
+        animation-duration: 25s;
+        top: -10%;
+      }
+      &:nth-child(5) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 20ms;
+        animation-duration: 17s;
+        top: -10%;
+      }
 
-  &:nth-child(1) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 200ms;
-    animation-duration: 10s;
-    top: -10%;
-  }
-  &:nth-child(2) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 1000ms;
-    animation-duration: 15s;
-    top: -10%;
-  }
-  &:nth-child(3) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 0ms;
-    animation-duration: 9s;
-    top: -10%;
-  }
-  &:nth-child(4) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 500ms;
-    animation-duration: 25s;
-    top: -10%;
-  }
-  &:nth-child(5) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 20ms;
-    animation-duration: 17s;
-    top: -10%;
-  }
+      &:nth-child(6) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 1500ms;
+        animation-duration: 12s;
+        top: -70%;
+        @media only screen and (min-width: $tablet-breakpoint) {
+          top: -10%;
+        }
+      }
+      &:nth-child(7) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 1000ms;
+        animation-duration: 25s;
+        top: -50%;
+      }
+      &:nth-child(8) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 20ms;
+        animation-duration: 12s;
+        top: -10%;
+      }
+      &:nth-child(9) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 750ms;
+        animation-duration: 31s;
+        top: -50%;
+      }
+      &:nth-child(10) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 2ms;
+        animation-duration: 9s;
+        top: -50%;
+      }
+      &:nth-child(11) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 50ms;
+        animation-duration: 7s;
+        top: -10%;
+      }
+      &:nth-child(12) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 1000ms;
+        animation-duration: 7s;
+        top: -50%;
+      }
+      &:nth-child(13) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 2ms;
+        animation-duration: 9s;
+        top: -50%;
+      }
 
-  &:nth-child(6) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 1500ms;
-    animation-duration: 12s;
-    top: -70%;
-    @media only screen and (min-width: $tablet-breakpoint ){
-      top: -10%;
+      &:nth-child(14) {
+        position: relative;
+        animation: linear infinite;
+        animation-name: floatDown;
+        animation-delay: 200ms;
+        animation-duration: 6s;
+        top: -10%;
+      }
     }
   }
-  &:nth-child(7) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 1000ms;
-    animation-duration: 25s;
-    top: -50%;
-  } 
-  &:nth-child(8) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 20ms;
-    animation-duration: 12s;
-    top: -10%;
-  } 
-  &:nth-child(9) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 750ms;
-    animation-duration: 31s;
-    top: -50%;
-  } 
-  &:nth-child(10) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 2ms;
-    animation-duration: 9s;
-    top: -50%;
-  } 
-  &:nth-child(11) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 50ms;
-    animation-duration: 7s;
-    top: -10%;
-  } 
-  &:nth-child(12) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 1000ms;
-    animation-duration: 7s;
-    top: -50%;
-  } 
-  &:nth-child(13) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 2ms;
-    animation-duration: 9s;
-    top: -50%;
-  } 
-
-  &:nth-child(14) {
-    position: relative;
-    animation:  linear infinite;
-    animation-name: floatDown;
-    animation-delay: 200ms;
-    animation-duration: 6s;
-    top: -10%;
-  }
-  }
-}
 
   .landing-hero {
     display: flex;
@@ -163,7 +161,6 @@
     align-items: center;
     gap: 4rem;
 
-
     .landing-hero__logo {
       width: 30vmin;
       height: 30vmin;
@@ -171,36 +168,35 @@
   }
 
   .landing__button {
-   border: none;
-   filter: drop-shadow(-11px -4px 12px #4145492b);
+    border: none;
+    filter: drop-shadow(-11px -4px 12px #4145492b);
   }
-  
 }
-@keyframes floatDown{
-  0%{
-    opacity:0;
+@keyframes floatDown {
+  0% {
+    opacity: 0;
     top: -10%;
-    transform:translateX(20px) rotate(0deg);
+    transform: translateX(20px) rotate(0deg);
   }
-  10%{
-    opacity:1;
+  10% {
+    opacity: 1;
   }
-  20%{
-    transform:translateX(-40px) rotate(45deg);
+  20% {
+    transform: translateX(-40px) rotate(45deg);
   }
-  40%{
-    transform:translateX(-20px) rotate(90deg);
+  40% {
+    transform: translateX(-20px) rotate(90deg);
   }
-  60%{
-    transform:translateX(-20px) rotate(180deg);
+  60% {
+    transform: translateX(-20px) rotate(180deg);
   }
-  80%{
-    transform:translateX(-20px) rotate(200deg);
+  80% {
+    transform: translateX(-20px) rotate(200deg);
   }
-  100%{
+  100% {
     top: 110%;
-    transform:translateX(-20px) rotate(225deg);
-    opacity:0;
+    transform: translateX(-20px) rotate(225deg);
+    opacity: 0;
   }
 }
 

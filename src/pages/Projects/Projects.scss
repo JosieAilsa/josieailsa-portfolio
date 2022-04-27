@@ -2,13 +2,11 @@
 @use "../../assets/sass/abstracts/variables" as *;
 @use "../../assets/sass/base/typography" as *;
 
-
-#projects{
-    background-image:url("../../assets/images/semi-circle.svg");
-    background-size: 100% 40%;
-    background-repeat: no-repeat;
-    @media only screen and (min-width: $large-desktop-breakpoint){
-        background-size: cover; 
-    }
-    
+#projects {
+  background-image: url("../../assets/images/semi-circle.svg");
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+  @media only screen and (min-width: $large-desktop-breakpoint) {
+    background-size: cover;
+  }
 }

@@ -3,24 +3,24 @@
 @use "../../assets/sass/base/resets" as *;
 @use "../../assets/sass/base/typography" as *;
 
-.footer{
-    grid-area: 8/1/8/13;
+.footer {
+  grid-area: 8/1/8/13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-green-opacity;
+  @media only screen and (min-width: 1200px) {
+    grid-area: 7/1/9/13;
+  }
+  .footer__icons {
+    width: 75%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:$color-green-opacity;
-    @media only screen and (min-width: 1200px) {
-        grid-area: 7/1/9/13;
-    }
-    .footer__icons{
-        width: 75%;
-        display: flex;
-        justify-content: space-around;
-        padding: 1rem;
-    }
-    .footer__text{
-        color: $color-background;
-        padding: 1rem;
-    }
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  .footer__text {
+    color: $color-background;
+    padding: 1rem;
+  }
 }

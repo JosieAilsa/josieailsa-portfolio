@@ -1,7 +1,7 @@
 @use "../../assets/sass/abstracts/variables" as *;
 @use "../../assets/sass/abstracts/mixin" as *;
 
-button{
+button {
   border: none;
 }
 .button--primary {
@@ -13,7 +13,7 @@ button{
   font-family: $font-body;
   font-weight: 500;
   border-radius: 2rem;
-  a{
+  a {
     color: $color-green;
   }
 }
@@ -21,7 +21,7 @@ button{
   background-color: $color-green;
   color: $color-pink;
   transition: 0.25s ease-in-out;
-  a{
+  a {
     color: $color-pink;
   }
 }
@@ -48,10 +48,10 @@ button{
   color: $color-pink;
   font-weight: 800;
   @include flex-center-column;
-  }
-  a {
-    color: $color-pink;
-  }
+}
+a {
+  color: $color-pink;
+}
 
 .button--secondary:hover {
   background-color: $color-pink;
