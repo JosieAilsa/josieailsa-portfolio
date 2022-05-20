@@ -5,6 +5,7 @@ import oae from "../../assets/images/projects/oae.png";
 import api from "../../assets/images/projects/api.jpeg";
 import piglatin from "../images/projects/piglatin.png";
 import java from "../../assets/images/projects/java.png";
+import portfolio from "../../assets/images/projects/portfolio.png";
 
 export const carouselData = [
   {
@@ -12,7 +13,7 @@ export const carouselData = [
     projectTitle: "Calculator",
     languages: ["HTML", "CSS", "Typescript"],
     description:
-      "My first project using TypeScript. End to end tested with cypress",
+      "My first ever javascript project, and it really shows how far I've come! My next front-end project is to re-do ths in Typescript. I also used this project to mess around with some end to end testing, using cypress",
     image: calculator,
     codebase: "https://github.com/JosieAilsa/js-calculator-challenge",
     liveSite: "https://josieailsa.github.io/js-calculator-challenge/",
@@ -22,10 +23,10 @@ export const carouselData = [
     projectTitle: "Morsecode Translator",
     languages: ["HTML", "CSS", "Vanilla JavaScript"],
     description:
-      "Morse code translator built with JS, using an OOP approach. Unit tested with Jest",
+      "A morse code translator built with JS, using an OOP approach. Unit tested with Jest",
     image: morsecode,
-    codebase: "",
-    liveSite: "",
+    codebase: "https://github.com/JosieAilsa/morse-code-translator",
+    liveSite: "https://josieailsa.github.io/morse-code-translator/",
   },
   {
     id: 3,
@@ -44,7 +45,7 @@ export const carouselData = [
     languages: ["HTML", "CSS", "JavaScript", "React"],
     image: powerlift5x5,
     description:
-      "The front-end of my first full-stuck application. Built using React, this weightlifting tracker uses a form for users to record the type of lift, the weight and the difficulty each day. All the lifts logged to date can then be viewed and filtered in the all lifts section.",
+      "PLEASE NOTE AS MY GCP SUBSCRIPTION HAS EXPIRED THIS PROJECT MAY NO LONGER WORK AS EXPECTED. The front-end of my first full-stuck application. Built using React, this weightlifting tracker uses a form for users to record the type of lift, the weight and the difficulty each day. All the lifts logged to date can then be viewed and filtered in the all lifts section.",
     codebase: "https://github.com/JosieAilsa/react-powerlifting-tracker",
     liveSite: "https://josieailsa.github.io/lift/create",
   },
@@ -75,5 +76,15 @@ export const carouselData = [
       "My first independent Java project. This simple two player timed, console-based game of snap helped me grasp the basics of key OOP concepts like inheritance and encapsulation. ",
     codebase: "https://github.com/JosieAilsa/java-game-challenge",
     liveSite: "",
+  },
+  {
+    id: 8,
+    projectTitle: "My portfolio",
+    languages: ["Javascript, HTML, CSS, React"],
+    image: portfolio,
+    description:
+      "This portfolio, which I've worked on intermittently round my full-time teaching role is built using React. I've tested a few components with RTL",
+    codebase: "https://github.com/JosieAilsa/josieailsa-portfolio",
+    liveSite: "https://josienewman.dev/",
   },
 ];

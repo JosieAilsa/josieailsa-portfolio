@@ -1,7 +1,7 @@
 import { useState } from "react";
 import hamburger from "../../assets/images/icons/hamburger.svg";
 import logo from "../../assets/images/icons/jnlogo-02.svg";
-import NavLinks from "../NavLinks/NavLinks";
+import NavLinks from "../../components/NavLinks/NavLinks";
 import "./Nav.scss";
 
 const Nav = () => {
