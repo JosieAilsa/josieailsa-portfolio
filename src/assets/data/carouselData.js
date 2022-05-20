@@ -47,7 +47,7 @@ export const carouselData = [
     description:
       "PLEASE NOTE AS MY GCP SUBSCRIPTION HAS EXPIRED THIS PROJECT MAY NO LONGER WORK AS EXPECTED. The front-end of my first full-stuck application. Built using React, this weightlifting tracker uses a form for users to record the type of lift, the weight and the difficulty each day. All the lifts logged to date can then be viewed and filtered in the all lifts section.",
     codebase: "https://github.com/JosieAilsa/react-powerlifting-tracker",
-    liveSite: "https://josieailsa.github.io/lift/create",
+    liveSite: "https://josieailsa.github.io/react-powerlifting-tracker/",
   },
   {
     id: 5,
