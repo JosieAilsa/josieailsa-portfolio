@@ -19,7 +19,7 @@ const SkillsCard = ({ title, content, icon }) => {
         <img className="card__icon" src={icon} alt={title + " icon"} />
         <h4 className="card__title">{title}</h4>
         <button id="expand" onClick={handleClick} className="card__button">
-          <img ref={iconRef} className={chevronClass} src={arrowright} alt="" />
+          <img ref={iconRef} className={chevronClass} src={arrowright}  alt={title} />
         </button>
       </div>
       {toggle && <p className="card__content">{content}</p>}
