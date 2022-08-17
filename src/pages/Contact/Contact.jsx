@@ -1,4 +1,4 @@
-import About from "./../../components/About/About";
+import About from "../About/About";
 import Footer from "./../../components/Footer/Footer";
 import "./Contact.scss";
 

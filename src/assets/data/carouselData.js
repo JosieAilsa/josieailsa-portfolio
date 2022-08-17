@@ -3,7 +3,7 @@ import morsecode from "../images/projects/morsecodetranslator.png";
 import calculator from "../images/projects/calculator.png";
 import oae from "../../assets/images/projects/oae.png";
 import api from "../../assets/images/projects/api.jpeg";
-import piglatin from "../images/projects/piglatin.png";
+import saveoom from "../images/projects/save-oom.png";
 import java from "../../assets/images/projects/java.png";
 import portfolio from "../../assets/images/projects/portfolio.png";
 
@@ -20,7 +20,7 @@ export const carouselData = [
   },
   {
     id: 2,
-    projectTitle: "Morsecode Translator",
+    projectTitle: "MorseCode Translator",
     languages: ["HTML", "CSS", "Vanilla JavaScript"],
     description:
       "A morse code translator built with JS, using an OOP approach. Unit tested with Jest",
@@ -32,9 +32,8 @@ export const carouselData = [
     id: 3,
     projectTitle: "OAE Event Programme",
     languages: ["HTML", "CSS", "JavaScript", "React"],
-    images: morsecode,
     description:
-      "Together with my _nology cohort, we developed a full-stack client project for the Orchestera of the Age of Englightenment. Working as part of a 12-man team, I worked on thefront end, creating a digital event programme webb app for attendees to access during the orchestra's events. The front-end was developed with ",
+      "Together with my _nology cohort, we developed a full-stack client project for the Orchestera of the Age of Englightenment. Working as part of a 12-man team, I worked on thefront end, creating a digital event programme webb app for attendees to access during the orchestra's events.",
     image: oae,
     codebase: "https://github.com/nology-tech/oae-event-programme",
     liveSite: "https://nology-tech.github.io/oae-event-programme/6",
@@ -55,17 +54,18 @@ export const carouselData = [
     languages: ["Java", "Spring Boot", "GCP", "SQL"],
     image: api,
     description:
-      "My first API written in Java using SpringBoot and deployed using GCP",
+      "My first API written in Java using SpringBoot and deployed using GCP.",
     codebase: "https://github.com/JosieAilsa/react-powerlifting-tracker",
   },
   {
     id: 6,
-    projectTitle: "Piglatin Translator",
-    languages: ["JavaScript"],
-    image: piglatin,
+    projectTitle: "Save Oom",
+    languages: ["JavaScript", "Firebase", "Firesstore"],
+    image: saveoom,
     description:
-      "A pig latin translator written, written and unit tested with jest - written in TDD approach",
-    codebase: "https://github.com/JosieAilsa/react-powerlifting-tracker",
+      "The first client project I lead with a cohort of students. I guided the Product Owner through reviewing PRs, requesting changes and merge conflicts. I also added the more complex sections of the project - including adding the user context and firebase integrations.",
+    codebase: "https://github.com/nology-tech/save-oom",
+    liveSite: "https://save-oom.web.app/",
   },
   {
     id: 7,
@@ -79,6 +79,16 @@ export const carouselData = [
   },
   {
     id: 8,
+    projectTitle: "Nology Java Library",
+    languages: ["Java"],
+    image: java,
+    description:
+      "My most recent Java project, this demonstrates more advanced OOP design, demonstrating the 4 pillars throughout. This project has persistance, reading from a CSV file on load then subsequently reading and writing to JSON. I've been working on the project alongside coaching full time!",
+    codebase: "https://github.com/JosieAilsa/java-tech-tests",
+    liveSite: "",
+  },
+  {
+    id: 9,
     projectTitle: "My portfolio",
     languages: ["Javascript, HTML, CSS, React"],
     image: portfolio,

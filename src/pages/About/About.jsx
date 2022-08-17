@@ -1,6 +1,6 @@
 import React from "react";
 import contactimg from "../../assets/images/projects/contact-1-01.svg";
-import Button from "../Button/Button";
+import Button from "../../components/Button/Button";
 import "./About.scss";
 
 const About = () => {
@@ -36,7 +36,7 @@ const About = () => {
         </p>
         <Button
           classNames="button--secondary"
-          content={<a href="/Users/Josie/jan-portfolio/src/assets/Josie Newman CV - May 20 .pdf" download="Josie Newman CV"> Download my CV</a>}
+          content={<a href=" /Users/Josie/jan-portfolio/src/assets/Josie N - June 2022.pdf" download="Josie Newman CV"> Download my CV</a>}
         />
       </div>
       <img
