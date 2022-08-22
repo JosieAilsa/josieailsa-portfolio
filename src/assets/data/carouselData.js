@@ -11,7 +11,7 @@ export const carouselData = [
   {
     id: 1,
     projectTitle: "Calculator",
-    languages: ["HTML", "CSS", "Typescript"],
+    languages: ["HTML", "SCSS", "JavaScript"],
     description:
       "My first ever javascript project, and it really shows how far I've come! My next front-end project is to re-do ths in Typescript. I also used this project to mess around with some end to end testing, using cypress",
     image: calculator,
@@ -33,7 +33,7 @@ export const carouselData = [
     projectTitle: "OAE Event Programme",
     languages: ["HTML", "CSS", "JavaScript", "React"],
     description:
-      "Together with my _nology cohort, we developed a full-stack client project for the Orchestera of the Age of Englightenment. Working as part of a 12-man team, I worked on thefront end, creating a digital event programme webb app for attendees to access during the orchestra's events.",
+      "Together with my _nology cohort, we developed a full-stack client project for the Orchestera of the Age of Englightenment. Working as part of a 12-man team, I worked on thefront end, creating a digital event programme webb app for attendees to access during the orchestra's events. React front-end",
     image: oae,
     codebase: "https://github.com/nology-tech/oae-event-programme",
     liveSite: "https://nology-tech.github.io/oae-event-programme/6",
@@ -54,7 +54,7 @@ export const carouselData = [
     languages: ["Java", "Spring Boot", "GCP", "SQL"],
     image: api,
     description:
-      "My first API written in Java using SpringBoot and deployed using GCP.",
+      "My first API written in Java using SpringBoot and deployed using GCP",
     codebase: "https://github.com/JosieAilsa/react-powerlifting-tracker",
   },
   {
@@ -67,6 +67,7 @@ export const carouselData = [
     codebase: "https://github.com/nology-tech/save-oom",
     liveSite: "https://save-oom.web.app/",
   },
+
   {
     id: 7,
     projectTitle: "Java Snap",
