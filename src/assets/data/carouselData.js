@@ -33,7 +33,7 @@ export const carouselData = [
     projectTitle: "OAE Event Programme",
     languages: ["HTML", "CSS", "JavaScript", "React"],
     description:
-      "Together with my _nology cohort, we developed a full-stack client project for the Orchestera of the Age of Englightenment. Working as part of a 12-man team, I worked on thefront end, creating a digital event programme webb app for attendees to access during the orchestra's events. React front-end",
+      "Together with my _nology cohort, we developed a full-stack client project for the Orchestera of the Age of Englightenment. Working as part of a 12-man team, I worked on the React front end, creating a digital event programme webb app for attendees to access during the orchestra's events.",
     image: oae,
     codebase: "https://github.com/nology-tech/oae-event-programme",
     liveSite: "https://nology-tech.github.io/oae-event-programme/6",
@@ -44,7 +44,7 @@ export const carouselData = [
     languages: ["HTML", "CSS", "JavaScript", "React"],
     image: powerlift5x5,
     description:
-      "PLEASE NOTE AS MY GCP SUBSCRIPTION HAS EXPIRED THIS PROJECT MAY NO LONGER WORK AS EXPECTED. The front-end of my first full-stuck application. Built using React, this weightlifting tracker uses a form for users to record the type of lift, the weight and the difficulty each day. All the lifts logged to date can then be viewed and filtered in the all lifts section.",
+      "PLEASE NOTE AS MY GCP SUBSCRIPTION HAS EXPIRED THIS PROJECT MAY NO LONGER WORK AS EXPECTED. The front-end of my first full-stuck application. Built using React, this weightlifting tracker uses a form for users to record the type of lift, the weight and the difficulty each day. All the lifts logged to date can then be viewed and filtered in the all lifts section. You can GET, POST and DELETE lifts from the REST API I created.",
     codebase: "https://github.com/JosieAilsa/react-powerlifting-tracker",
     liveSite: "https://josieailsa.g ithub.io/react-powerlifting-tracker/",
   },
@@ -54,16 +54,16 @@ export const carouselData = [
     languages: ["Java", "Spring Boot", "GCP", "SQL"],
     image: api,
     description:
-      "My first API written in Java using SpringBoot and deployed using GCP",
+      "My first API written in Java using SpringBoot and deployed using GCP. GET, POST, DELETE endpoints have been added.",
     codebase: "https://github.com/JosieAilsa/react-powerlifting-tracker",
   },
   {
     id: 6,
     projectTitle: "Save Oom",
-    languages: ["JavaScript", "Firebase", "Firesstore"],
+    languages: ["JavaScript", "Firebase", "FireStore"],
     image: saveoom,
     description:
-      "The first client project I lead with a cohort of students. I guided the Product Owner through reviewing PRs, requesting changes and merge conflicts. I also added the more complex sections of the project - including adding the user context and firebase integrations.",
+      "The first client project I lead with a cohort of students. I guided the Product Owner through reviewing PRs, requesting changes and merge conflicts. I also added the more complex sections of the project - including adding the user context, more complex RTL tests and Firebase integrations.",
     codebase: "https://github.com/nology-tech/save-oom",
     liveSite: "https://save-oom.web.app/",
   },
@@ -94,7 +94,7 @@ export const carouselData = [
     languages: ["Javascript, HTML, CSS, React"],
     image: portfolio,
     description:
-      "This portfolio, which I've worked on intermittently round my full-time teaching role is built using React. I've tested a few components with RTL",
+      "This portfolio, which I've worked on intermittently around my full-time teaching role is built using React. I've tested a few components with RTL",
     codebase: "https://github.com/JosieAilsa/josieailsa-portfolio",
     liveSite: "https://josienewman.dev/",
   },

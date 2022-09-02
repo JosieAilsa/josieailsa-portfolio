@@ -15,7 +15,7 @@ const About = () => {
           <br />
           <br />
           I had to use some basic HTML and CSS on my wordpress CMS, so to
-          upskill I started a codeacademy course and haven't looked back since!
+          upskill I started a Codeacademy course and haven't looked back since!
           In April 2021 I started a full-stack, self-paced course with _nology
           alongside my full-time job. Over the next 8 months, I started learning
           javascript and building my first basic web apps.
@@ -36,7 +36,15 @@ const About = () => {
         </p>
         <Button
           classNames="button--secondary"
-          content={<a href="https://github.com/JosieAilsa/josieailsa-portfolio/blob/main/src/assets/Josie%20N%20-%20CV%20Aug%202022.pdf" download="Josie Newman CV"> Download my CV</a>}
+          content={
+            <a
+              href="https://github.com/JosieAilsa/josieailsa-portfolio/blob/main/src/assets/Josie%20N%20-%20CV%20Aug%202022.pdf"
+              download="Josie Newman CV"
+            >
+              {" "}
+              Download my CV
+            </a>
+          }
         />
       </div>
       <img
