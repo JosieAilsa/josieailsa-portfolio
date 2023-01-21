@@ -25,10 +25,12 @@ const About = () => {
           software coach, to help others learn to code too!
           <br />
           <br />
-          After a year of coaching and helping others learn the fundamentals front-end development. 
-          I took the plunge into fully-fledged development myself. I'm now a full stack developer at 
-          Demand Logic, a green property tech company helping. I work software which models the heating, air ventilation and cooling of large 
-          corporate office and buildings, and assesses their efficiency. 
+          After a year of coaching and helping others learn the fundamentals
+          front-end development. I took the plunge into fully-fledged
+          development myself. I'm now a full stack developer at Demand Logic, a
+          green property tech company helping. I work software which models the
+          heating, air ventilation and cooling of large corporate office and
+          buildings, and assesses their efficiency.
           <br />
           <br />
           See my CV for more info on all my experience to-date.
@@ -37,7 +39,7 @@ const About = () => {
           classNames="button--secondary"
           content={
             <a
-              href="https://github.com/JosieAilsa/josieailsa-portfolio/blob/main/src/assets/Josie%20N%20-%20CV%20Aug%202022.pdf"
+              href="https://github.com/JosieAilsa/josieailsa-portfolio/blob/main/src/assets/JN%20CV%202023.pdf"
               download="Josie Newman CV"
             >
               {" "}
