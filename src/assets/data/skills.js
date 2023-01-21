@@ -2,7 +2,6 @@ import html from "../images/skills/html.svg";
 import css from "../images/skills/css.svg";
 import js from "../images/skills/js.svg";
 import java from "../images/skills/java.svg";
-import manage from "../images/skills/manage.svg";
 import comms from "../images/skills/comms.svg";
 import react from "../images/skills/react.svg";
 import python from "../images/icons/python.svg";
