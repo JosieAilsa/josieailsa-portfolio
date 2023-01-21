@@ -25,11 +25,10 @@ const About = () => {
           software coach, to help others learn to code too!
           <br />
           <br />
-          After completing a 12-week bootcamp I started leading a 3-hour lesson
-          each week, on everything from basic flexbox to React testing library!
-          The role presented a really unique opportunity for me to combine
-          coding with what I loved most about comms, breaking-down complex
-          technical topics into accessible, everyday English.
+          After a year of coaching and helping others learn the fundamentals front-end development. 
+          I took the plunge into fully-fledged development myself. I'm now a full stack developer at 
+          Demand Logic, a green property tech company helping. I work software which models the heating, air ventilation and cooling of large 
+          corporate office and buildings, and assesses their efficiency. 
           <br />
           <br />
           See my CV for more info on all my experience to-date.

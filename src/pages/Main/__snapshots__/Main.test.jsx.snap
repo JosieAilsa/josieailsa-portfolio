@@ -2,122 +2,578 @@
 
 exports[`Main page should render 1`] = `
 <div>
-  <header>
-    <nav
-      class="navbar"
-    >
-      <img
-        alt="logo"
-        class="navbar__logo"
-        src="jnlogo-02.svg"
-      />
-      <ul
-        class="navbar__links"
+  <main>
+    <header>
+      <nav
+        class="navbar"
       >
-        <li
-          class="navbar__link"
+        <img
+          alt="logo"
+          class="navbar__logo"
+          src="jnlogo-02.svg"
+        />
+        <ul
+          class="navbar__links"
         >
-          carouselData
-        </li>
-        <li
-          class="navbar__link"
-        >
-          skills
-        </li>
-        <li
-          class="navbar__link"
-        >
-          contact
-        </li>
-      </ul>
-      <img
-        alt="nav-menu"
-        class="navbar__hamburger"
-        src="hamburger.svg"
-      />
-    </nav>
-  </header>
-  <div
-    class="home page"
-  >
-    <section
-      class="hero"
+          <li
+            class="navbar__link"
+          >
+            <a
+              href="#home"
+            >
+              home
+            </a>
+          </li>
+          <li
+            class="navbar__link"
+          >
+            <a
+              href="#projects"
+            >
+              projects
+            </a>
+          </li>
+          <li
+            class="navbar__link"
+          >
+            <a
+              href="#skills"
+            >
+              skills
+            </a>
+          </li>
+          <li
+            class="navbar__link"
+          >
+            <a
+              href="#contact"
+            >
+              contact
+            </a>
+          </li>
+        </ul>
+        <img
+          alt="nav-menu"
+          class="navbar__hamburger"
+          src="hamburger.svg"
+        />
+      </nav>
+    </header>
+    <div
+      class="home page"
+      id="home"
     >
       <section
-        class="hero__text"
+        class="hero"
       >
-        <h1
-          class="hero__header"
+        <section
+          class="hero__text"
         >
-          Hi, I'm Josie.
-        </h1>
-        <h3
-          class="hero__intro"
-        >
-          I'm Bristol-based UI developer and software coach.
-        </h3>
-        <button
-          class="hero__button hero__button--active"
-          role="button"
-        >
-          See my carouselData
-        </button>
+          <h1
+            class="hero__header"
+          >
+            Hi, I'm Josie.
+          </h1>
+          <h2
+            class="hero__intro"
+          >
+            I'm a Bristol-based junior full stack developer.
+          </h2>
+          <button
+            class="hero__button button--primary button"
+          >
+            <a
+              href="#projects"
+            >
+              See my projects
+            </a>
+          </button>
+        </section>
+        <img
+          alt="hero"
+          class="hero__image"
+          src="landing-img.svg"
+        />
       </section>
-      <img
-        alt="hero image"
-        class="hero__image"
-        src="landing-img.svg"
-      />
-    </section>
-  </div>
-  <div
-    class="carouselData page"
-  >
-    <h1
-      class="projects__heading"
-    >
-      Projects
-    </h1>
-    <section
-      class="carousel"
-    >
-      <div
-        class="carousel__buttons"
+      <article
+        class="scroll"
       >
-        <button
-          class="carousel__button"
-          role="button"
-        >
-          <img
-            alt=""
-            src="arrow.svg"
-          />
-        </button>
-        <button
-          class="carousel__button"
-          role="button"
-        >
-          <img
-            alt=""
-            src="arrow.svg"
-          />
-        </button>
-      </div>
-      <div
-        class="carousel__copy"
-      >
-        <h3
-          class="carousel__header"
-        >
-          Project Name
-        </h3>
+        <img
+          alt=""
+          class="scroll__image"
+          src="carousel-arrow2.svg"
+        />
         <p
-          class="carousel__text"
+          class="scroll__text"
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia possimus minima maiores eos iusto quam ut exercitationem sit assumenda, corporis cum incidunt aliquam facere placeat, qui aliquid quod esse deleniti.
+          scroll
         </p>
+      </article>
+    </div>
+    <div
+      class="page"
+      id="projects"
+    >
+      <h3
+        class="projects__heading  page__heading"
+      >
+        My Projects
+      </h3>
+      <section
+        class="carousel"
+      >
+        <div
+          class="carousel__image-container"
+        >
+          <img
+            alt=""
+            class="carousel__flower carousel__flower--petals"
+            src="flowers-07.svg"
+          />
+          <img
+            alt=""
+            class="carousel__flower carousel__flower--pink"
+            src="flowers-01.svg"
+          />
+          <img
+            alt=""
+            class="carousel__flower carousel__flower--green"
+            src="flowers-09.svg"
+          />
+          <div
+            class="carousel-item__image-wrap carousel-item__image-wrap--main"
+          >
+            <img
+              alt="Save Oom"
+              class="carousel-item__image carousel-item__image--main"
+              src="save-oom.png"
+            />
+          </div>
+          <div
+            class="carousel-item__image-wrap carousel-item__image-wrap--two"
+          >
+            <img
+              alt="Save Oom"
+              class="carousel-item__image carousel-item__image--two"
+              src="java.png"
+            />
+          </div>
+          <div
+            class="carousel-item__image-wrap carousel-item__image-wrap--three"
+          >
+            <img
+              alt="Save Oom"
+              class="carousel-item__image carousel-item__image--three"
+              src="portfolio.png"
+            />
+          </div>
+          <div
+            class="carousel-item__image-wrap carousel-item__image-wrap--four"
+          >
+            <img
+              alt="Save Oom"
+              class="carousel-item__image carousel-item__image--four"
+              src="save-oom.png"
+            />
+          </div>
+        </div>
+        <div
+          class="carousel__buttons"
+        >
+          <button
+            class="carousel__button carousel__button-left carousel__button--inactive"
+          >
+            <img
+              alt=""
+              class="carousel__button-image"
+              data-id="click-left"
+              src="arrow-left.svg"
+            />
+          </button>
+          <button
+            class="carousel__button carousel__button-right"
+          >
+            <img
+              alt=""
+              class="carousel__button-image"
+              data-id="click-right"
+              src="arrow-right.svg"
+            />
+          </button>
+        </div>
+        <article
+          class="carousel__copy"
+        >
+          <h4
+            class="carousel__header"
+          >
+            1. Save Oom
+          </h4>
+          <p
+            class="carousel__text"
+          >
+            The first client project I lead with a cohort of students. I guided the Product Owner through reviewing PRs, requesting changes and merge conflicts. I also added the more complex sections of the project - including adding the user context, more complex RTL tests and Firebase integrations.
+          </p>
+          <div
+            class="carousel__code-container"
+          >
+            <button
+              class="button--secondary"
+            >
+              <a>
+                See my code
+              </a>
+            </button>
+            <button
+              class="button--secondary"
+            >
+              <a
+                href="https://save-oom.web.app/"
+              >
+                See the site
+              </a>
+            </button>
+          </div>
+        </article>
+      </section>
+    </div>
+    <div
+      class="skills page"
+      id="skills"
+    >
+      <h3
+        class="page__heading skills__title"
+      >
+        Skills
+      </h3>
+      <div
+        class="skills-container"
+      >
+        <div
+          class="skills__col-1"
+        >
+          <section
+            class="card"
+          >
+            <div
+              class="card__wrapper"
+            >
+              <img
+                alt="HTML 5 icon"
+                class="card__icon"
+                src="html.svg"
+              />
+              <h4
+                class="card__title"
+              >
+                HTML 5
+              </h4>
+              <button
+                class="card__button"
+                id="expand"
+              >
+                <img
+                  alt="HTML 5"
+                  class="card__drop-down "
+                  src="arrow-right2.svg"
+                />
+              </button>
+            </div>
+          </section>
+          <section
+            class="card"
+          >
+            <div
+              class="card__wrapper"
+            >
+              <img
+                alt="CSS icon"
+                class="card__icon"
+                src="css.svg"
+              />
+              <h4
+                class="card__title"
+              >
+                CSS
+              </h4>
+              <button
+                class="card__button"
+                id="expand"
+              >
+                <img
+                  alt="CSS"
+                  class="card__drop-down "
+                  src="arrow-right2.svg"
+                />
+              </button>
+            </div>
+          </section>
+          <section
+            class="card"
+          >
+            <div
+              class="card__wrapper"
+            >
+              <img
+                alt="JavaScript icon"
+                class="card__icon"
+                src="js.svg"
+              />
+              <h4
+                class="card__title"
+              >
+                JavaScript
+              </h4>
+              <button
+                class="card__button"
+                id="expand"
+              >
+                <img
+                  alt="JavaScript"
+                  class="card__drop-down "
+                  src="arrow-right2.svg"
+                />
+              </button>
+            </div>
+          </section>
+          <section
+            class="card"
+          >
+            <div
+              class="card__wrapper"
+            >
+              <img
+                alt="React icon"
+                class="card__icon"
+                src="react.svg"
+              />
+              <h4
+                class="card__title"
+              >
+                React
+              </h4>
+              <button
+                class="card__button"
+                id="expand"
+              >
+                <img
+                  alt="React"
+                  class="card__drop-down "
+                  src="arrow-right2.svg"
+                />
+              </button>
+            </div>
+          </section>
+        </div>
+        <div
+          class="skills__col-2"
+        >
+          <section
+            class="card"
+          >
+            <div
+              class="card__wrapper"
+            >
+              <img
+                alt="Java icon"
+                class="card__icon"
+                src="java.svg"
+              />
+              <h4
+                class="card__title"
+              >
+                Java
+              </h4>
+              <button
+                class="card__button"
+                id="expand"
+              >
+                <img
+                  alt="Java"
+                  class="card__drop-down "
+                  src="arrow-right2.svg"
+                />
+              </button>
+            </div>
+          </section>
+          <section
+            class="card"
+          >
+            <div
+              class="card__wrapper"
+            >
+              <img
+                alt="Python icon"
+                class="card__icon"
+                src="python.svg"
+              />
+              <h4
+                class="card__title"
+              >
+                Python
+              </h4>
+              <button
+                class="card__button"
+                id="expand"
+              >
+                <img
+                  alt="Python"
+                  class="card__drop-down "
+                  src="arrow-right2.svg"
+                />
+              </button>
+            </div>
+          </section>
+          <section
+            class="card"
+          >
+            <div
+              class="card__wrapper"
+            >
+              <img
+                alt="TDD icon"
+                class="card__icon"
+                src="test.svg"
+              />
+              <h4
+                class="card__title"
+              >
+                TDD
+              </h4>
+              <button
+                class="card__button"
+                id="expand"
+              >
+                <img
+                  alt="TDD"
+                  class="card__drop-down "
+                  src="arrow-right2.svg"
+                />
+              </button>
+            </div>
+          </section>
+          <section
+            class="card"
+          >
+            <div
+              class="card__wrapper"
+            >
+              <img
+                alt="Communictions icon"
+                class="card__icon"
+                src="comms.svg"
+              />
+              <h4
+                class="card__title"
+              >
+                Communictions
+              </h4>
+              <button
+                class="card__button"
+                id="expand"
+              >
+                <img
+                  alt="Communictions"
+                  class="card__drop-down "
+                  src="arrow-right2.svg"
+                />
+              </button>
+            </div>
+          </section>
+        </div>
       </div>
-    </section>
-  </div>
+    </div>
+    <div
+      class="page"
+      id="contact"
+    >
+      <h3
+        class="contact__heading page__heading"
+      >
+        Contact
+      </h3>
+      <div
+        class="about"
+      >
+        <div
+          class="about__text"
+        >
+          <p
+            class="about__copy"
+          >
+            I was first introduced to coding when, working with a digital agency, I launched and latterly managed a website, as part of my day-to-day job in corporate communications at a large international FTSE 30 FMCG company.
+            <br />
+            <br />
+            I had to use some basic HTML and CSS on my wordpress CMS, so to upskill I started a Codeacademy course and haven't looked back since! In April 2021 I started a full-stack, self-paced course with _nology alongside my full-time job. Over the next 8 months, I started learning javascript and building my first basic web apps.
+            <br />
+            <br />
+            In October 2021, the _nology team offered me a position as junior software coach, to help others learn to code too!
+            <br />
+            <br />
+            After a year of coaching and helping others learn the fundamentals front-end development. I took the plunge into fully-fledged development myself. I'm now a full stack developer at Demand Logic, a green property tech company helping. I work software which models the heating, air ventilation and cooling of large corporate office and buildings, and assesses their efficiency.
+            <br />
+            <br />
+            See my CV for more info on all my experience to-date.
+          </p>
+          <button
+            class="button--secondary"
+          >
+            <a
+              download="Josie Newman CV"
+              href="https://github.com/JosieAilsa/josieailsa-portfolio/blob/main/src/assets/Josie%20N%20-%20CV%20Aug%202022.pdf"
+            >
+               
+              Download my CV
+            </a>
+          </button>
+        </div>
+        <img
+          alt="josie newman"
+          class="about__image hero__image"
+          src="contact-1-01.svg"
+        />
+      </div>
+      <footer
+        class="footer"
+      >
+        <article
+          class="footer__icons"
+        >
+          <a
+            href="https://github.com/JosieAilsa"
+            target="blank"
+          >
+            <img
+              alt="git hub link"
+              src="github.svg"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/josieanewman/"
+          >
+            <img
+              alt="linkedin link"
+              src="linkedin.svg"
+            />
+          </a>
+          <a
+            href="mailto:josie.a.newman@gmail.com"
+          >
+            <img
+              alt="email link"
+              src="email.svg"
+            />
+          </a>
+        </article>
+        <article
+          class="footer__text"
+        >
+          <p>
+            Josie Newman 2022 | All rights reserved
+          </p>
+        </article>
+      </footer>
+    </div>
+  </main>
 </div>
 `;

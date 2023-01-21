@@ -6,7 +6,7 @@ const Skills = () => {
   const skillsCardsArrJSX1 = [];
   const skillsCardsArrJSX2 = [];
   for (let i = 0; i < skillsArr.length; i++) {
-    let currentSkill = skillsArr[i];
+    const currentSkill = skillsArr[i];
     i <= 3
       ? skillsCardsArrJSX1.push(
           <SkillsCard

@@ -17,17 +17,38 @@ exports[`Nav should render 1`] = `
         <li
           class="navbar__link"
         >
-          carouselData
+          <a
+            href="#home"
+          >
+            home
+          </a>
         </li>
         <li
           class="navbar__link"
         >
-          skills
+          <a
+            href="#projects"
+          >
+            projects
+          </a>
         </li>
         <li
           class="navbar__link"
         >
-          contact
+          <a
+            href="#skills"
+          >
+            skills
+          </a>
+        </li>
+        <li
+          class="navbar__link"
+        >
+          <a
+            href="#contact"
+          >
+            contact
+          </a>
         </li>
       </ul>
       <img

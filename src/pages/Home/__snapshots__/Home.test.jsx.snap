@@ -4,6 +4,7 @@ exports[`The home page 1`] = `
 <div>
   <div
     class="home page"
+    id="home"
   >
     <section
       class="hero"
@@ -16,24 +17,41 @@ exports[`The home page 1`] = `
         >
           Hi, I'm Josie.
         </h1>
-        <h3
+        <h2
           class="hero__intro"
         >
-          I'm Bristol-based UI developer and software coach.
-        </h3>
+          I'm a Bristol-based junior full stack developer.
+        </h2>
         <button
-          class="hero__button hero__button--active"
-          role="button"
+          class="hero__button button--primary button"
         >
-          See my carouselData
+          <a
+            href="#projects"
+          >
+            See my projects
+          </a>
         </button>
       </section>
       <img
-        alt="hero image"
+        alt="hero"
         class="hero__image"
         src="landing-img.svg"
       />
     </section>
+    <article
+      class="scroll"
+    >
+      <img
+        alt=""
+        class="scroll__image"
+        src="carousel-arrow2.svg"
+      />
+      <p
+        class="scroll__text"
+      >
+        scroll
+      </p>
+    </article>
   </div>
 </div>
 `;

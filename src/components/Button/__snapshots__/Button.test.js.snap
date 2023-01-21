@@ -3,7 +3,7 @@
 exports[`Button should render 1`] = `
 <div>
   <button
-    role="button"
+    class=" "
   />
 </div>
 `;

@@ -5,7 +5,8 @@ import java from "../images/skills/java.svg";
 import manage from "../images/skills/manage.svg";
 import comms from "../images/skills/comms.svg";
 import react from "../images/skills/react.svg";
-import writing from "../images/skills/writing.svg";
+import python from "../images/icons/python.svg";
+import test from "../images/icons/test.svg";
 
 export const skillsArr = [
   {
@@ -35,25 +36,24 @@ export const skillsArr = [
   {
     title: "Java",
     content:
-      "My first back-end and OOP language, I've built three projects using Java - including a REST API with Spring Boot & SQL.",
+      "My first back-end and OOP language. I learnt the basics of Java at nology and taught lessons on fundamentals of OOP ",
     icon: java,
   },
   {
-    title: "Communications",
+    title: "Python",
+    content: "I use Python in my current role on multiple backend services.",
+    icon: python,
+  },
+  {
+    title: "TDD",
     content:
-      "As an ex-communications professional, and now software coach, I revel in the challenge of breaking-down complex topics in simple English.",
+      "In my day to day role I take a TDD approach development - its instrumental for giving me confidence in my code! ",
+    icon: test,
+  },
+  {
+    title: "Communictions",
+    content:
+      "Being an ex-comms professional helped me develop my stakeholder management skills",
     icon: comms,
-  },
-  {
-    title: "Content writing",
-    content:
-      "After spending 3-years managing a FTSE 100 website, I've drafted everything from webpages to videos, infographics and long-form technical content!",
-    icon: writing,
-  },
-  {
-    title: "Stakeholder Management",
-    content:
-      "Throughout my career, I worked with a broad range of stakeholders from other devs, to lawyers, PhD scientists and marketeers to create and deliver content.",
-    icon: manage,
   },
 ];

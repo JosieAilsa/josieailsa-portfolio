@@ -4,44 +4,70 @@ exports[`The landing page 1`] = `
 <div>
   <main
     class="landing"
+    id="landing"
   >
     <div
       class="landing__artwork"
     >
       <img
         alt=""
-        class="landing__art landing__flower-1"
-        src="flowers-01.svg"
-      />
-      <img
-        alt=""
-        class="landing__art landing__flower-2"
-        src="flowers-02.svg"
-      />
-      <img
-        alt=""
-        class="landing__art landing__flower-3"
+        class="landing__art "
         src="flowers-05.svg"
       />
       <img
         alt=""
-        class="landing__art landing__flower-4"
+        class="landing__art "
+        src="flowers-06.svg"
+      />
+      <img
+        alt=""
+        class="landing__art "
         src="flowers-01.svg"
       />
       <img
         alt=""
-        class="landing__art landing__flower-5"
+        class="landing__art "
+        src="flowers-02.svg"
+      />
+      <img
+        alt=""
+        class="landing__art "
+        src="flowers-05.svg"
+      />
+      <img
+        alt=""
+        class="landing__art "
+        src="flowers-01.svg"
+      />
+      <img
+        alt=""
+        class="landing__art "
         src="flowers-03.svg"
       />
       <img
         alt=""
-        class="landing__art landing__flower-6"
+        class="landing__art "
         src="flowers-07.svg"
       />
       <img
         alt=""
-        class="landing__art landing__flower-7"
-        src="flowers-06.svg"
+        class="landing__art "
+        src="flowers-05.svg"
+      />
+      <img
+        alt=""
+        class="landing__art "
+        src="flowers-03.svg"
+      />
+      <img
+        alt=""
+        class="landing__art "
+        src="flowers-07.svg"
+      />
+      <img
+        alt=""
+        class="landing__art "
+        src="flowers-01.svg"
       />
     </div>
     <section
@@ -50,15 +76,15 @@ exports[`The landing page 1`] = `
       <img
         alt="jnlogo"
         class="landing-hero__logo"
-        src="jnlogo-landing2-01.svg"
+        src="jnlogo-landing3-01.svg"
         srcset=""
       />
+      <button
+        class="landing__button button--primary"
+      >
+        Enter portfolio
+      </button>
     </section>
-    <p
-      class="landing__cta"
-    >
-      See portfolio
-    </p>
   </main>
 </div>
 `;
