@@ -46,7 +46,7 @@ export const skillsArr = [
   {
     title: "TDD",
     content:
-      "In my day to day role I take a TDD approach development - its instrumental for giving me confidence in my code! ",
+      "In my day to day role I take a TDD approach to development - its instrumental for giving me confidence in my code! ",
     icon: test,
   },
   {
