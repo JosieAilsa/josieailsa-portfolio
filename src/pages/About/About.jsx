@@ -1,38 +1,22 @@
 import React from "react";
-import contactimg from "../../assets/images/projects/contact-1-01.svg";
 import Button from "../../components/Button/Button";
 import "./About.scss";
 
 const About = () => {
   return (
     <div className="about">
-      <div class="about__text">
         <p className="about__copy">
-          I was first introduced to coding when, working with a digital agency,
-          I launched and latterly managed a website, as part of my day-to-day
-          job in corporate communications at a large international FTSE 30 FMCG
-          company.
+          I was first introduced to coding when, in 2020 I began managing a website, as part of my day-to-day
+          as part of my job in corporate communications.
           <br />
           <br />
-          I had to use some basic HTML and CSS on my wordpress CMS, so to
-          upskill I started a Codeacademy course and haven't looked back since!
-          In April 2021 I started a full-stack, self-paced course with _nology
-          alongside my full-time job. Over the next 8 months, I started learning
-          javascript and building my first basic web apps.
+          I was interested in how HTML and CSS worked in the CMS, so started a codeacademy course to learn more. 
           <br />
           <br />
-          In October 2021, the _nology team offered me a position as junior
-          software coach, to help others learn to code too!
-          <br />
-          <br />
-          After a year of coaching and helping others learn the fundamentals
-          front-end development. I took the plunge into fully-fledged
-          development myself. I'm now a full stack developer at Demand Logic, a
-          green property tech company helping. I work software which models the
-          heating, air ventilation and cooling of large corporate office and
-          buildings, and assesses their efficiency.
-          <br />
-          <br />
+          Fast forward almost three years (and a lot of late nights!) later, I'm now a fully-fledged full-stack developer 
+          working at a clean tech start up. 
+          <br/>
+          <br/>
           See my CV for more info on all my experience to-date.
         </p>
         <Button
@@ -47,12 +31,6 @@ const About = () => {
             </a>
           }
         />
-      </div>
-      <img
-        className="about__image hero__image"
-        src={contactimg}
-        alt="josie newman"
-      />
     </div>
   );
 };

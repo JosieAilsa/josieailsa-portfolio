@@ -4,7 +4,7 @@
 @use "../../assets/sass/base/typography" as *;
 
 .about {
-  grid-area: 2/3/8/11;
+  grid-area: 2/3/7/11;
   align-items: center;
   @media only screen and (min-width: $desktop-breakpoint) {
     grid-area: 3/3/7/11;
@@ -14,10 +14,6 @@
   gap: 1rem;
   flex-direction: column;
   align-items: flex-start;
-  @media only screen and (min-width: $desktop-breakpoint) {
-    flex-direction: row;
-    padding-bottom: 5rem;
-  }
   .about__text {
     display: flex;
     flex-direction: column;
@@ -37,4 +33,5 @@
       align-self: flex-start;
     }
   }
+
 }

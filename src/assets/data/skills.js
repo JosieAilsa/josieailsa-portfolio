@@ -23,7 +23,7 @@ export const skillsArr = [
   {
     title: "JavaScript",
     content:
-      "I started learning javascript 2 years ago. Now I'm helping others on that journey too, teaching students and coaching on everything from basic functions, to API requests and unit testing",
+      "My first and favourite language! I have extensive personal and professional experience with JS - see my github for examples",
     icon: js,
   },
   {

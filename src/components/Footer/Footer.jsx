@@ -19,7 +19,7 @@ const Footer = () => {
         </a>
       </article>
       <article className="footer__text">
-        <p>Josie Newman 2022 | All rights reserved</p>
+        <p>Josie Newman 2023 | All rights reserved</p>
       </article>
     </footer>
   );
