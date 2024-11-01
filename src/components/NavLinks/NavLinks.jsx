@@ -8,9 +8,6 @@ const NavLinks = ({ linksWrapperClass, linksClass }) => {
         <a href="#projects">projects</a>
       </li>
       <li className={linksClass}>
-        <a href="#skills">skills</a>
-      </li>
-      <li className={linksClass}>
         <a href="#contact">contact</a>
       </li>
     </ul>

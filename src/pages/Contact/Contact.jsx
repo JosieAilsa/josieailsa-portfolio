@@ -5,9 +5,8 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <div id="contact" className="page">
-      <h3 className="contact__heading page__heading">Contact</h3>
+      <h3 className="contact__heading page__heading"> A bit about me... </h3>
       <About />
-      <Footer />
     </div>
   );
 };

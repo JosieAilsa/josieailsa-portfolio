@@ -14,16 +14,6 @@ export const carouselData = [
     liveSite: "https://save-oom-oxna.web.app",
   },
   {
-    id: 2,
-    projectTitle: "Nology Java Library",
-    languages: ["Java"],
-    image: java,
-    description:
-      "My most recent Java project, this demonstrates more advanced OOP design, demonstrating the 4 pillars throughout. This project has persistance, reading from a CSV file on load then subsequently reading and writing to JSON. I've been working on the project alongside coaching full time!",
-    codebase: "https://github.com/JosieAilsa/java-tech-tests",
-    liveSite: null,
-  },
-  {
     id: 3,
     projectTitle: "My portfolio",
     languages: ["Javascript, HTML, CSS, React"],

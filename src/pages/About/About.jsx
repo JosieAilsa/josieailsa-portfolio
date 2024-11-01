@@ -1,36 +1,24 @@
 import React from "react";
-import Button from "../../components/Button/Button";
 import "./About.scss";
 
 const About = () => {
   return (
     <div className="about">
         <p className="about__copy">
-          I was first introduced to coding when, in 2020 I began managing a website, as part of my day-to-day
-          as part of my job in corporate communications.
+          I was first introduced to coding in 2020 when I began managing a website as part of my day-to-day job in corporate communications. I was interested in how HTML and CSS worked in the CMS, so I started a Codecademy course to learn more. Once I started writing JavaScript, I was hooked!
           <br />
           <br />
-          I was interested in how HTML and CSS worked in the CMS, so started a codeacademy course to learn more. 
+          Since then, I've learned as much as I can, tried my hand a bit of design (as this portfolio shows) and picked up several more languages along the way (Java, Python).
           <br />
           <br />
-          Fast forward almost three years (and a lot of late nights!) later, I'm now a fully-fledged full-stack developer 
-          working at a clean tech start up. 
+          Now, as a developer with a few years of experience under my belt, I have a good understanding of how to write clean, elegant code. 
+          I'm really passionate about writing maintainable logic that is easy to read and understand from the get-go. 
           <br/>
-          <br/>
-          See my CV for more info on all my experience to-date.
+          I think one of the benefits of not coming from a traditional tech background,  is that I can explain complex concepts in a way that is easy to understand - particularly for non-technical folks!
+          <br />
+          <br />
+          Most of the projects I've worked on professionally are not public sites. But if you'd like to hear more about the products I've worked on, I'd be happy to talk through them! Just shoot me a message.
         </p>
-        <Button
-          classNames="button--secondary"
-          content={
-            <a
-              href="https://github.com/JosieAilsa/josieailsa-portfolio/blob/main/src/assets/JN%20CV%202023.pdf"
-              download="Josie Newman CV"
-            >
-              {" "}
-              Download my CV
-            </a>
-          }
-        />
     </div>
   );
 };

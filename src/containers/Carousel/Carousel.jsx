@@ -105,16 +105,6 @@ const Carousel = ({ carouselData }) => {
           item={"two"}
           title={carouselData[currentProjectShown].projectTitle}
         />
-        <CarouselImage
-          image={carouselData[three].image}
-          item={"three"}
-          title={carouselData[currentProjectShown].projectTitle}
-        />
-        <CarouselImage
-          image={carouselData[four].image}
-          item={"four"}
-          title={carouselData[currentProjectShown].projectTitle}
-        />
       </div>
       <div className="carousel__buttons">
         <Button
