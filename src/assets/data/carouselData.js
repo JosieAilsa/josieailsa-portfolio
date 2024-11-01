@@ -1,5 +1,4 @@
 import saveoom from "../images/projects/save-oom.png";
-import java from "../../assets/images/projects/java.png";
 import portfolio from "../../assets/images/projects/portfolio.png";
 
 export const carouselData = [

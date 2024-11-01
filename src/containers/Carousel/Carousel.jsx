@@ -72,7 +72,7 @@ const Carousel = ({ carouselData }) => {
     return [currentID + 1, currentID + 2, currentID + 3];
   };
   //Destructure to get index of left and right images
-  const [two, three, four] = findNextCarouselNum(
+  const [two ] = findNextCarouselNum(
     currentProjectShown,
     carouselData.length
   );
