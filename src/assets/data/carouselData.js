@@ -13,7 +13,7 @@ export const carouselData = [
     liveSite: "https://save-oom-oxna.web.app",
   },
   {
-    id: 3,
+    id: 2,
     projectTitle: "My portfolio",
     languages: ["Javascript, HTML, CSS, React"],
     image: portfolio,

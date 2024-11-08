@@ -23,4 +23,17 @@
       text-align: center;
     }
   }
+  &__images{
+    max-height: 200px;
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    @media screen and (min-width: $desktop-breakpoint) {
+      max-height: 500px;
+    }
+  }
+  &__image{
+    max-height: 100%;
+  }
 }

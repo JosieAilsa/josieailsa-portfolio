@@ -110,6 +110,7 @@ const Carousel = ({ carouselData }) => {
         <Button
           classNames="carousel__button carousel__button-left carousel__button--inactive"
           onClick={onClick}
+          onKeyDown={onClick}
           content={
             <img
               data-id="click-left"
@@ -122,6 +123,7 @@ const Carousel = ({ carouselData }) => {
         <Button
           classNames="carousel__button carousel__button-right"
           onClick={onClick}
+          onKeyDown={onClick}
           content={
             <img
               data-id="click-right"
