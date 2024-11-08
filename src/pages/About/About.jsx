@@ -34,8 +34,8 @@ const About = () => {
             </p>
           </section>
           <div class="about__images">
-            <img class="about__image" src={surfingImg} />
-            <img class="about__image" src={fawnImg}/>
+            <img class="about__image" alt="me surfing!" src={surfingImg} />
+            <img class="about__image" alt="me with my lovely parent's rescue spaniel - Fawn" src={fawnImg}/>
           </div>
     </div>
   );
